@@ -1,0 +1,4 @@
+xcdebugger/
+**/xcuserdata/*
+.DS_Store
+StoreKitTestCertificate.cer

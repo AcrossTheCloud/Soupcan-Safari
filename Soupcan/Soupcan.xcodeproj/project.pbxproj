@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342D4F212A340BC800FCEC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F202A340BC800FCEC03 /* AppDelegate.swift */; };
+		342D4F232A340BC800FCEC03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F222A340BC800FCEC03 /* SceneDelegate.swift */; };
+		342D4F262A340BC800FCEC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F242A340BC800FCEC03 /* LaunchScreen.storyboard */; };
+		342D4F292A340BC800FCEC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F272A340BC800FCEC03 /* Main.storyboard */; };
+		342D4F322A340BC800FCEC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F312A340BC800FCEC03 /* AppDelegate.swift */; };
+		342D4F352A340BC800FCEC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F332A340BC800FCEC03 /* Main.storyboard */; };
+		342D4F3D2A340BC800FCEC03 /* Soupcan Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 342D4F3C2A340BC800FCEC03 /* Soupcan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		342D4F472A340BC800FCEC03 /* Soupcan Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 342D4F462A340BC800FCEC03 /* Soupcan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		342D4F4D2A340BC800FCEC03 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F102A340BC600FCEC03 /* Main.html */; };
+		342D4F4E2A340BC800FCEC03 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F102A340BC600FCEC03 /* Main.html */; };
+		342D4F4F2A340BC800FCEC03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F122A340BC600FCEC03 /* Icon.png */; };
+		342D4F502A340BC800FCEC03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F122A340BC600FCEC03 /* Icon.png */; };
+		342D4F512A340BC800FCEC03 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F132A340BC600FCEC03 /* Style.css */; };
+		342D4F522A340BC800FCEC03 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F132A340BC600FCEC03 /* Style.css */; };
+		342D4F532A340BC800FCEC03 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F142A340BC600FCEC03 /* Script.js */; };
+		342D4F542A340BC800FCEC03 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F142A340BC600FCEC03 /* Script.js */; };
+		342D4F552A340BC800FCEC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F152A340BC600FCEC03 /* ViewController.swift */; };
+		342D4F562A340BC800FCEC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F152A340BC600FCEC03 /* ViewController.swift */; };
+		342D4F572A340BC800FCEC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F162A340BC800FCEC03 /* Assets.xcassets */; };
+		342D4F582A340BC800FCEC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F162A340BC800FCEC03 /* Assets.xcassets */; };
+		342D4F592A340BC800FCEC03 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F182A340BC800FCEC03 /* SafariWebExtensionHandler.swift */; };
+		342D4F5A2A340BC800FCEC03 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D4F182A340BC800FCEC03 /* SafariWebExtensionHandler.swift */; };
+		342D4F872A340BC800FCEC03 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6C2A340BC800FCEC03 /* bootstrap.min.css */; };
+		342D4F882A340BC800FCEC03 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6D2A340BC800FCEC03 /* icon16.png */; };
+		342D4F892A340BC800FCEC03 /* moderation.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6E2A340BC800FCEC03 /* moderation.js */; };
+		342D4F8A2A340BC800FCEC03 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6F2A340BC800FCEC03 /* manifest-firefox.json */; };
+		342D4F8B2A340BC800FCEC03 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F702A340BC800FCEC03 /* icon.png */; };
+		342D4F8C2A340BC800FCEC03 /* icon400.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F712A340BC800FCEC03 /* icon400.png */; };
+		342D4F8D2A340BC800FCEC03 /* start.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F722A340BC800FCEC03 /* start.js */; };
+		342D4F8E2A340BC800FCEC03 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F732A340BC800FCEC03 /* background.js */; };
+		342D4F8F2A340BC800FCEC03 /* awesome-notifications in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F742A340BC800FCEC03 /* awesome-notifications */; };
+		342D4F902A340BC800FCEC03 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F752A340BC800FCEC03 /* images */; };
+		342D4F912A340BC800FCEC03 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F762A340BC800FCEC03 /* icon48.png */; };
+		342D4F922A340BC800FCEC03 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F772A340BC800FCEC03 /* options.js */; };
+		342D4F932A340BC800FCEC03 /* moderation.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F782A340BC800FCEC03 /* moderation.html */; };
+		342D4F942A340BC800FCEC03 /* wiawbot.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F792A340BC800FCEC03 /* wiawbot.css */; };
+		342D4F952A340BC800FCEC03 /* bootstrap.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7A2A340BC800FCEC03 /* bootstrap.bundle.min.js */; };
+		342D4F962A340BC800FCEC03 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7B2A340BC800FCEC03 /* start.html */; };
+		342D4F972A340BC800FCEC03 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7C2A340BC800FCEC03 /* icon128.png */; };
+		342D4F982A340BC800FCEC03 /* fetch-progress.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7D2A340BC800FCEC03 /* fetch-progress.js */; };
+		342D4F992A340BC800FCEC03 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7E2A340BC800FCEC03 /* manifest.json */; };
+		342D4F9A2A340BC800FCEC03 /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7F2A340BC800FCEC03 /* start.css */; };
+		342D4F9B2A340BC800FCEC03 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F802A340BC800FCEC03 /* options.html */; };
+		342D4F9C2A340BC800FCEC03 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F812A340BC800FCEC03 /* _locales */; };
+		342D4F9D2A340BC800FCEC03 /* wiawbot.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F822A340BC800FCEC03 /* wiawbot.js */; };
+		342D4F9E2A340BC800FCEC03 /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F832A340BC800FCEC03 /* icon24.png */; };
+		342D4F9F2A340BC800FCEC03 /* image-hash-comparator.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F842A340BC800FCEC03 /* image-hash-comparator.js */; };
+		342D4FA02A340BC800FCEC03 /* create_extension_packages.py in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F852A340BC800FCEC03 /* create_extension_packages.py */; };
+		342D4FA12A340BC800FCEC03 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F862A340BC800FCEC03 /* icon32.png */; };
+		342D4FA22A340BC800FCEC03 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6C2A340BC800FCEC03 /* bootstrap.min.css */; };
+		342D4FA32A340BC800FCEC03 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6D2A340BC800FCEC03 /* icon16.png */; };
+		342D4FA42A340BC800FCEC03 /* moderation.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6E2A340BC800FCEC03 /* moderation.js */; };
+		342D4FA52A340BC800FCEC03 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F6F2A340BC800FCEC03 /* manifest-firefox.json */; };
+		342D4FA62A340BC800FCEC03 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F702A340BC800FCEC03 /* icon.png */; };
+		342D4FA72A340BC800FCEC03 /* icon400.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F712A340BC800FCEC03 /* icon400.png */; };
+		342D4FA82A340BC800FCEC03 /* start.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F722A340BC800FCEC03 /* start.js */; };
+		342D4FA92A340BC800FCEC03 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F732A340BC800FCEC03 /* background.js */; };
+		342D4FAA2A340BC800FCEC03 /* awesome-notifications in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F742A340BC800FCEC03 /* awesome-notifications */; };
+		342D4FAB2A340BC800FCEC03 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F752A340BC800FCEC03 /* images */; };
+		342D4FAC2A340BC800FCEC03 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F762A340BC800FCEC03 /* icon48.png */; };
+		342D4FAD2A340BC800FCEC03 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F772A340BC800FCEC03 /* options.js */; };
+		342D4FAE2A340BC800FCEC03 /* moderation.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F782A340BC800FCEC03 /* moderation.html */; };
+		342D4FAF2A340BC800FCEC03 /* wiawbot.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F792A340BC800FCEC03 /* wiawbot.css */; };
+		342D4FB02A340BC800FCEC03 /* bootstrap.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7A2A340BC800FCEC03 /* bootstrap.bundle.min.js */; };
+		342D4FB12A340BC800FCEC03 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7B2A340BC800FCEC03 /* start.html */; };
+		342D4FB22A340BC800FCEC03 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7C2A340BC800FCEC03 /* icon128.png */; };
+		342D4FB32A340BC800FCEC03 /* fetch-progress.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7D2A340BC800FCEC03 /* fetch-progress.js */; };
+		342D4FB42A340BC800FCEC03 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7E2A340BC800FCEC03 /* manifest.json */; };
+		342D4FB52A340BC800FCEC03 /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F7F2A340BC800FCEC03 /* start.css */; };
+		342D4FB62A340BC800FCEC03 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F802A340BC800FCEC03 /* options.html */; };
+		342D4FB72A340BC800FCEC03 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F812A340BC800FCEC03 /* _locales */; };
+		342D4FB82A340BC800FCEC03 /* wiawbot.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F822A340BC800FCEC03 /* wiawbot.js */; };
+		342D4FB92A340BC800FCEC03 /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F832A340BC800FCEC03 /* icon24.png */; };
+		342D4FBA2A340BC800FCEC03 /* image-hash-comparator.js in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F842A340BC800FCEC03 /* image-hash-comparator.js */; };
+		342D4FBB2A340BC800FCEC03 /* create_extension_packages.py in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F852A340BC800FCEC03 /* create_extension_packages.py */; };
+		342D4FBC2A340BC800FCEC03 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D4F862A340BC800FCEC03 /* icon32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342D4F3E2A340BC800FCEC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342D4F0A2A340BC600FCEC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342D4F3B2A340BC800FCEC03;
+			remoteInfo = "Soupcan Extension (iOS)";
+		};
+		342D4F482A340BC800FCEC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342D4F0A2A340BC600FCEC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342D4F452A340BC800FCEC03;
+			remoteInfo = "Soupcan Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		342D4F602A340BC800FCEC03 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				342D4F3D2A340BC800FCEC03 /* Soupcan Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F672A340BC800FCEC03 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				342D4F472A340BC800FCEC03 /* Soupcan Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		342D4F112A340BC600FCEC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		342D4F122A340BC600FCEC03 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		342D4F132A340BC600FCEC03 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		342D4F142A340BC600FCEC03 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		342D4F152A340BC600FCEC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		342D4F162A340BC800FCEC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342D4F182A340BC800FCEC03 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		342D4F1D2A340BC800FCEC03 /* Soupcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soupcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342D4F202A340BC800FCEC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		342D4F222A340BC800FCEC03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		342D4F252A340BC800FCEC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		342D4F282A340BC800FCEC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342D4F2A2A340BC800FCEC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342D4F2F2A340BC800FCEC03 /* Soupcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soupcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342D4F312A340BC800FCEC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		342D4F342A340BC800FCEC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342D4F362A340BC800FCEC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342D4F372A340BC800FCEC03 /* Soupcan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soupcan.entitlements; sourceTree = "<group>"; };
+		342D4F3C2A340BC800FCEC03 /* Soupcan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soupcan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		342D4F412A340BC800FCEC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342D4F462A340BC800FCEC03 /* Soupcan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soupcan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		342D4F4B2A340BC800FCEC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342D4F4C2A340BC800FCEC03 /* Soupcan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soupcan.entitlements; sourceTree = "<group>"; };
+		342D4F6C2A340BC800FCEC03 /* bootstrap.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = bootstrap.min.css; path = "../../../soupcan/manifest-v3/bootstrap.min.css"; sourceTree = "<group>"; };
+		342D4F6D2A340BC800FCEC03 /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = "../../../soupcan/manifest-v3/icon16.png"; sourceTree = "<group>"; };
+		342D4F6E2A340BC800FCEC03 /* moderation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = moderation.js; path = "../../../soupcan/manifest-v3/moderation.js"; sourceTree = "<group>"; };
+		342D4F6F2A340BC800FCEC03 /* manifest-firefox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-firefox.json"; path = "../../../soupcan/manifest-v3/manifest-firefox.json"; sourceTree = "<group>"; };
+		342D4F702A340BC800FCEC03 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../../soupcan/manifest-v3/icon.png"; sourceTree = "<group>"; };
+		342D4F712A340BC800FCEC03 /* icon400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon400.png; path = "../../../soupcan/manifest-v3/icon400.png"; sourceTree = "<group>"; };
+		342D4F722A340BC800FCEC03 /* start.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = start.js; path = "../../../soupcan/manifest-v3/start.js"; sourceTree = "<group>"; };
+		342D4F732A340BC800FCEC03 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../soupcan/manifest-v3/background.js"; sourceTree = "<group>"; };
+		342D4F742A340BC800FCEC03 /* awesome-notifications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "awesome-notifications"; path = "../../../soupcan/manifest-v3/awesome-notifications"; sourceTree = "<group>"; };
+		342D4F752A340BC800FCEC03 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../../soupcan/manifest-v3/images"; sourceTree = "<group>"; };
+		342D4F762A340BC800FCEC03 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = "../../../soupcan/manifest-v3/icon48.png"; sourceTree = "<group>"; };
+		342D4F772A340BC800FCEC03 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = "../../../soupcan/manifest-v3/options.js"; sourceTree = "<group>"; };
+		342D4F782A340BC800FCEC03 /* moderation.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = moderation.html; path = "../../../soupcan/manifest-v3/moderation.html"; sourceTree = "<group>"; };
+		342D4F792A340BC800FCEC03 /* wiawbot.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = wiawbot.css; path = "../../../soupcan/manifest-v3/wiawbot.css"; sourceTree = "<group>"; };
+		342D4F7A2A340BC800FCEC03 /* bootstrap.bundle.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bootstrap.bundle.min.js; path = "../../../soupcan/manifest-v3/bootstrap.bundle.min.js"; sourceTree = "<group>"; };
+		342D4F7B2A340BC800FCEC03 /* start.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = start.html; path = "../../../soupcan/manifest-v3/start.html"; sourceTree = "<group>"; };
+		342D4F7C2A340BC800FCEC03 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "../../../soupcan/manifest-v3/icon128.png"; sourceTree = "<group>"; };
+		342D4F7D2A340BC800FCEC03 /* fetch-progress.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "fetch-progress.js"; path = "../../../soupcan/manifest-v3/fetch-progress.js"; sourceTree = "<group>"; };
+		342D4F7E2A340BC800FCEC03 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../soupcan/manifest-v3/manifest.json"; sourceTree = "<group>"; };
+		342D4F7F2A340BC800FCEC03 /* start.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = start.css; path = "../../../soupcan/manifest-v3/start.css"; sourceTree = "<group>"; };
+		342D4F802A340BC800FCEC03 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../../soupcan/manifest-v3/options.html"; sourceTree = "<group>"; };
+		342D4F812A340BC800FCEC03 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../../soupcan/manifest-v3/_locales"; sourceTree = "<group>"; };
+		342D4F822A340BC800FCEC03 /* wiawbot.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = wiawbot.js; path = "../../../soupcan/manifest-v3/wiawbot.js"; sourceTree = "<group>"; };
+		342D4F832A340BC800FCEC03 /* icon24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon24.png; path = "../../../soupcan/manifest-v3/icon24.png"; sourceTree = "<group>"; };
+		342D4F842A340BC800FCEC03 /* image-hash-comparator.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "image-hash-comparator.js"; path = "../../../soupcan/manifest-v3/image-hash-comparator.js"; sourceTree = "<group>"; };
+		342D4F852A340BC800FCEC03 /* create_extension_packages.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = create_extension_packages.py; path = "../../../soupcan/manifest-v3/create_extension_packages.py"; sourceTree = "<group>"; };
+		342D4F862A340BC800FCEC03 /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon32.png; path = "../../../soupcan/manifest-v3/icon32.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342D4F1A2A340BC800FCEC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F2C2A340BC800FCEC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F392A340BC800FCEC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F432A340BC800FCEC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342D4F092A340BC600FCEC03 = {
+			isa = PBXGroup;
+			children = (
+				342D4F0E2A340BC600FCEC03 /* Shared (App) */,
+				342D4F172A340BC800FCEC03 /* Shared (Extension) */,
+				342D4F1F2A340BC800FCEC03 /* iOS (App) */,
+				342D4F302A340BC800FCEC03 /* macOS (App) */,
+				342D4F402A340BC800FCEC03 /* iOS (Extension) */,
+				342D4F4A2A340BC800FCEC03 /* macOS (Extension) */,
+				342D4F1E2A340BC800FCEC03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342D4F0E2A340BC600FCEC03 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F152A340BC600FCEC03 /* ViewController.swift */,
+				342D4F162A340BC800FCEC03 /* Assets.xcassets */,
+				342D4F0F2A340BC600FCEC03 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		342D4F0F2A340BC600FCEC03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F102A340BC600FCEC03 /* Main.html */,
+				342D4F122A340BC600FCEC03 /* Icon.png */,
+				342D4F132A340BC600FCEC03 /* Style.css */,
+				342D4F142A340BC600FCEC03 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		342D4F172A340BC800FCEC03 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F6B2A340BC800FCEC03 /* Resources */,
+				342D4F182A340BC800FCEC03 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		342D4F1E2A340BC800FCEC03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F1D2A340BC800FCEC03 /* Soupcan.app */,
+				342D4F2F2A340BC800FCEC03 /* Soupcan.app */,
+				342D4F3C2A340BC800FCEC03 /* Soupcan Extension.appex */,
+				342D4F462A340BC800FCEC03 /* Soupcan Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342D4F1F2A340BC800FCEC03 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F202A340BC800FCEC03 /* AppDelegate.swift */,
+				342D4F222A340BC800FCEC03 /* SceneDelegate.swift */,
+				342D4F242A340BC800FCEC03 /* LaunchScreen.storyboard */,
+				342D4F272A340BC800FCEC03 /* Main.storyboard */,
+				342D4F2A2A340BC800FCEC03 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		342D4F302A340BC800FCEC03 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F312A340BC800FCEC03 /* AppDelegate.swift */,
+				342D4F332A340BC800FCEC03 /* Main.storyboard */,
+				342D4F362A340BC800FCEC03 /* Info.plist */,
+				342D4F372A340BC800FCEC03 /* Soupcan.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		342D4F402A340BC800FCEC03 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F412A340BC800FCEC03 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		342D4F4A2A340BC800FCEC03 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F4B2A340BC800FCEC03 /* Info.plist */,
+				342D4F4C2A340BC800FCEC03 /* Soupcan.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		342D4F6B2A340BC800FCEC03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				342D4F6C2A340BC800FCEC03 /* bootstrap.min.css */,
+				342D4F6D2A340BC800FCEC03 /* icon16.png */,
+				342D4F6E2A340BC800FCEC03 /* moderation.js */,
+				342D4F6F2A340BC800FCEC03 /* manifest-firefox.json */,
+				342D4F702A340BC800FCEC03 /* icon.png */,
+				342D4F712A340BC800FCEC03 /* icon400.png */,
+				342D4F722A340BC800FCEC03 /* start.js */,
+				342D4F732A340BC800FCEC03 /* background.js */,
+				342D4F742A340BC800FCEC03 /* awesome-notifications */,
+				342D4F752A340BC800FCEC03 /* images */,
+				342D4F762A340BC800FCEC03 /* icon48.png */,
+				342D4F772A340BC800FCEC03 /* options.js */,
+				342D4F782A340BC800FCEC03 /* moderation.html */,
+				342D4F792A340BC800FCEC03 /* wiawbot.css */,
+				342D4F7A2A340BC800FCEC03 /* bootstrap.bundle.min.js */,
+				342D4F7B2A340BC800FCEC03 /* start.html */,
+				342D4F7C2A340BC800FCEC03 /* icon128.png */,
+				342D4F7D2A340BC800FCEC03 /* fetch-progress.js */,
+				342D4F7E2A340BC800FCEC03 /* manifest.json */,
+				342D4F7F2A340BC800FCEC03 /* start.css */,
+				342D4F802A340BC800FCEC03 /* options.html */,
+				342D4F812A340BC800FCEC03 /* _locales */,
+				342D4F822A340BC800FCEC03 /* wiawbot.js */,
+				342D4F832A340BC800FCEC03 /* icon24.png */,
+				342D4F842A340BC800FCEC03 /* image-hash-comparator.js */,
+				342D4F852A340BC800FCEC03 /* create_extension_packages.py */,
+				342D4F862A340BC800FCEC03 /* icon32.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342D4F1C2A340BC800FCEC03 /* Soupcan (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342D4F612A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan (iOS)" */;
+			buildPhases = (
+				342D4F192A340BC800FCEC03 /* Sources */,
+				342D4F1A2A340BC800FCEC03 /* Frameworks */,
+				342D4F1B2A340BC800FCEC03 /* Resources */,
+				342D4F602A340BC800FCEC03 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342D4F3F2A340BC800FCEC03 /* PBXTargetDependency */,
+			);
+			name = "Soupcan (iOS)";
+			productName = "Soupcan (iOS)";
+			productReference = 342D4F1D2A340BC800FCEC03 /* Soupcan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342D4F2E2A340BC800FCEC03 /* Soupcan (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342D4F682A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan (macOS)" */;
+			buildPhases = (
+				342D4F2B2A340BC800FCEC03 /* Sources */,
+				342D4F2C2A340BC800FCEC03 /* Frameworks */,
+				342D4F2D2A340BC800FCEC03 /* Resources */,
+				342D4F672A340BC800FCEC03 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342D4F492A340BC800FCEC03 /* PBXTargetDependency */,
+			);
+			name = "Soupcan (macOS)";
+			productName = "Soupcan (macOS)";
+			productReference = 342D4F2F2A340BC800FCEC03 /* Soupcan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342D4F3B2A340BC800FCEC03 /* Soupcan Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342D4F5D2A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan Extension (iOS)" */;
+			buildPhases = (
+				342D4F382A340BC800FCEC03 /* Sources */,
+				342D4F392A340BC800FCEC03 /* Frameworks */,
+				342D4F3A2A340BC800FCEC03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soupcan Extension (iOS)";
+			productName = "Soupcan Extension (iOS)";
+			productReference = 342D4F3C2A340BC800FCEC03 /* Soupcan Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		342D4F452A340BC800FCEC03 /* Soupcan Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342D4F642A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan Extension (macOS)" */;
+			buildPhases = (
+				342D4F422A340BC800FCEC03 /* Sources */,
+				342D4F432A340BC800FCEC03 /* Frameworks */,
+				342D4F442A340BC800FCEC03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soupcan Extension (macOS)";
+			productName = "Soupcan Extension (macOS)";
+			productReference = 342D4F462A340BC800FCEC03 /* Soupcan Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342D4F0A2A340BC600FCEC03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					342D4F1C2A340BC800FCEC03 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					342D4F2E2A340BC800FCEC03 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					342D4F3B2A340BC800FCEC03 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					342D4F452A340BC800FCEC03 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 342D4F0D2A340BC600FCEC03 /* Build configuration list for PBXProject "Soupcan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342D4F092A340BC600FCEC03;
+			productRefGroup = 342D4F1E2A340BC800FCEC03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342D4F1C2A340BC800FCEC03 /* Soupcan (iOS) */,
+				342D4F2E2A340BC800FCEC03 /* Soupcan (macOS) */,
+				342D4F3B2A340BC800FCEC03 /* Soupcan Extension (iOS) */,
+				342D4F452A340BC800FCEC03 /* Soupcan Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342D4F1B2A340BC800FCEC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F4F2A340BC800FCEC03 /* Icon.png in Resources */,
+				342D4F262A340BC800FCEC03 /* LaunchScreen.storyboard in Resources */,
+				342D4F4D2A340BC800FCEC03 /* Main.html in Resources */,
+				342D4F532A340BC800FCEC03 /* Script.js in Resources */,
+				342D4F572A340BC800FCEC03 /* Assets.xcassets in Resources */,
+				342D4F292A340BC800FCEC03 /* Main.storyboard in Resources */,
+				342D4F512A340BC800FCEC03 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F2D2A340BC800FCEC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F502A340BC800FCEC03 /* Icon.png in Resources */,
+				342D4F522A340BC800FCEC03 /* Style.css in Resources */,
+				342D4F352A340BC800FCEC03 /* Main.storyboard in Resources */,
+				342D4F542A340BC800FCEC03 /* Script.js in Resources */,
+				342D4F582A340BC800FCEC03 /* Assets.xcassets in Resources */,
+				342D4F4E2A340BC800FCEC03 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F3A2A340BC800FCEC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4FB02A340BC800FCEC03 /* bootstrap.bundle.min.js in Resources */,
+				342D4FAB2A340BC800FCEC03 /* images in Resources */,
+				342D4FB52A340BC800FCEC03 /* start.css in Resources */,
+				342D4FAD2A340BC800FCEC03 /* options.js in Resources */,
+				342D4FB92A340BC800FCEC03 /* icon24.png in Resources */,
+				342D4FAA2A340BC800FCEC03 /* awesome-notifications in Resources */,
+				342D4FA92A340BC800FCEC03 /* background.js in Resources */,
+				342D4FBC2A340BC800FCEC03 /* icon32.png in Resources */,
+				342D4FA52A340BC800FCEC03 /* manifest-firefox.json in Resources */,
+				342D4FB42A340BC800FCEC03 /* manifest.json in Resources */,
+				342D4FA62A340BC800FCEC03 /* icon.png in Resources */,
+				342D4FA82A340BC800FCEC03 /* start.js in Resources */,
+				342D4FBB2A340BC800FCEC03 /* create_extension_packages.py in Resources */,
+				342D4FA22A340BC800FCEC03 /* bootstrap.min.css in Resources */,
+				342D4FBA2A340BC800FCEC03 /* image-hash-comparator.js in Resources */,
+				342D4FAC2A340BC800FCEC03 /* icon48.png in Resources */,
+				342D4FAE2A340BC800FCEC03 /* moderation.html in Resources */,
+				342D4FB12A340BC800FCEC03 /* start.html in Resources */,
+				342D4FB82A340BC800FCEC03 /* wiawbot.js in Resources */,
+				342D4FB62A340BC800FCEC03 /* options.html in Resources */,
+				342D4FA32A340BC800FCEC03 /* icon16.png in Resources */,
+				342D4FAF2A340BC800FCEC03 /* wiawbot.css in Resources */,
+				342D4FB32A340BC800FCEC03 /* fetch-progress.js in Resources */,
+				342D4FB22A340BC800FCEC03 /* icon128.png in Resources */,
+				342D4FA42A340BC800FCEC03 /* moderation.js in Resources */,
+				342D4FB72A340BC800FCEC03 /* _locales in Resources */,
+				342D4FA72A340BC800FCEC03 /* icon400.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F442A340BC800FCEC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F952A340BC800FCEC03 /* bootstrap.bundle.min.js in Resources */,
+				342D4F902A340BC800FCEC03 /* images in Resources */,
+				342D4F9A2A340BC800FCEC03 /* start.css in Resources */,
+				342D4F922A340BC800FCEC03 /* options.js in Resources */,
+				342D4F9E2A340BC800FCEC03 /* icon24.png in Resources */,
+				342D4F8F2A340BC800FCEC03 /* awesome-notifications in Resources */,
+				342D4F8E2A340BC800FCEC03 /* background.js in Resources */,
+				342D4FA12A340BC800FCEC03 /* icon32.png in Resources */,
+				342D4F8A2A340BC800FCEC03 /* manifest-firefox.json in Resources */,
+				342D4F992A340BC800FCEC03 /* manifest.json in Resources */,
+				342D4F8B2A340BC800FCEC03 /* icon.png in Resources */,
+				342D4F8D2A340BC800FCEC03 /* start.js in Resources */,
+				342D4FA02A340BC800FCEC03 /* create_extension_packages.py in Resources */,
+				342D4F872A340BC800FCEC03 /* bootstrap.min.css in Resources */,
+				342D4F9F2A340BC800FCEC03 /* image-hash-comparator.js in Resources */,
+				342D4F912A340BC800FCEC03 /* icon48.png in Resources */,
+				342D4F932A340BC800FCEC03 /* moderation.html in Resources */,
+				342D4F962A340BC800FCEC03 /* start.html in Resources */,
+				342D4F9D2A340BC800FCEC03 /* wiawbot.js in Resources */,
+				342D4F9B2A340BC800FCEC03 /* options.html in Resources */,
+				342D4F882A340BC800FCEC03 /* icon16.png in Resources */,
+				342D4F942A340BC800FCEC03 /* wiawbot.css in Resources */,
+				342D4F982A340BC800FCEC03 /* fetch-progress.js in Resources */,
+				342D4F972A340BC800FCEC03 /* icon128.png in Resources */,
+				342D4F892A340BC800FCEC03 /* moderation.js in Resources */,
+				342D4F9C2A340BC800FCEC03 /* _locales in Resources */,
+				342D4F8C2A340BC800FCEC03 /* icon400.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342D4F192A340BC800FCEC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F552A340BC800FCEC03 /* ViewController.swift in Sources */,
+				342D4F212A340BC800FCEC03 /* AppDelegate.swift in Sources */,
+				342D4F232A340BC800FCEC03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F2B2A340BC800FCEC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F562A340BC800FCEC03 /* ViewController.swift in Sources */,
+				342D4F322A340BC800FCEC03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F382A340BC800FCEC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F592A340BC800FCEC03 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342D4F422A340BC800FCEC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342D4F5A2A340BC800FCEC03 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342D4F3F2A340BC800FCEC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342D4F3B2A340BC800FCEC03 /* Soupcan Extension (iOS) */;
+			targetProxy = 342D4F3E2A340BC800FCEC03 /* PBXContainerItemProxy */;
+		};
+		342D4F492A340BC800FCEC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342D4F452A340BC800FCEC03 /* Soupcan Extension (macOS) */;
+			targetProxy = 342D4F482A340BC800FCEC03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342D4F102A340BC600FCEC03 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342D4F112A340BC600FCEC03 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		342D4F242A340BC800FCEC03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342D4F252A340BC800FCEC03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		342D4F272A340BC800FCEC03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342D4F282A340BC800FCEC03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342D4F332A340BC800FCEC03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342D4F342A340BC800FCEC03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342D4F5B2A340BC800FCEC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342D4F5C2A340BC800FCEC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		342D4F5E2A340BC800FCEC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Soupcan Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.Extension;
+				PRODUCT_NAME = "Soupcan Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342D4F5F2A340BC800FCEC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Soupcan Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.Extension;
+				PRODUCT_NAME = "Soupcan Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342D4F622A340BC800FCEC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan;
+				PRODUCT_NAME = Soupcan;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342D4F632A340BC800FCEC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan;
+				PRODUCT_NAME = Soupcan;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342D4F652A340BC800FCEC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Soupcan.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Soupcan Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.Extension;
+				PRODUCT_NAME = "Soupcan Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		342D4F662A340BC800FCEC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Soupcan.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Soupcan Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.Extension;
+				PRODUCT_NAME = "Soupcan Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		342D4F692A340BC800FCEC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Soupcan.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan;
+				PRODUCT_NAME = Soupcan;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		342D4F6A2A340BC800FCEC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Soupcan.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan;
+				PRODUCT_NAME = Soupcan;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342D4F0D2A340BC600FCEC03 /* Build configuration list for PBXProject "Soupcan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342D4F5B2A340BC800FCEC03 /* Debug */,
+				342D4F5C2A340BC800FCEC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342D4F5D2A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342D4F5E2A340BC800FCEC03 /* Debug */,
+				342D4F5F2A340BC800FCEC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342D4F612A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342D4F622A340BC800FCEC03 /* Debug */,
+				342D4F632A340BC800FCEC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342D4F642A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342D4F652A340BC800FCEC03 /* Debug */,
+				342D4F662A340BC800FCEC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342D4F682A340BC800FCEC03 /* Build configuration list for PBXNativeTarget "Soupcan (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342D4F692A340BC800FCEC03 /* Debug */,
+				342D4F6A2A340BC800FCEC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342D4F0A2A340BC600FCEC03 /* Project object */;
+}
