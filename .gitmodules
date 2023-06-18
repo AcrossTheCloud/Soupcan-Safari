@@ -1,0 +1,3 @@
+[submodule "soupcan-extension"]
+	path = soupcan-extension
+	url = https://github.com/AcrossTheCloud/soupcan.git
