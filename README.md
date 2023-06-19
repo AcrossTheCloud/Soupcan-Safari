@@ -3,8 +3,7 @@
 ## Notes:
 Converted using
 ```shell
-git clone https://github.com/bethylamine/soupcan.git
-xcrun safari-web-extension-converter --app-name Soupcan --bundle-identifier net.acrossthecloud.Soupcan --project-location ]Soupcan-Safari --swift soupcan/manifest-v3
+xcrun safari-web-extension-converter --app-name Soupcan --bundle-identifier net.acrossthecloud.Soupcan --project-location . --swift soupcan-extension/manifest-v3
 ```
 
 ## Known issues:
