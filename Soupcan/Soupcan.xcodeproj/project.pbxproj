@@ -830,7 +830,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Soupcan.Safari-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.SafariExtension;
 				PRODUCT_NAME = "Soupcan Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -861,7 +861,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Soupcan.Safari-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.SafariExtension;
 				PRODUCT_NAME = "Soupcan Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -972,7 +972,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.SafariExtension;
 				PRODUCT_NAME = "Soupcan Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1004,7 +1004,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = net.acrossthecloud.Soupcan.SafariExtension;
 				PRODUCT_NAME = "Soupcan Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
