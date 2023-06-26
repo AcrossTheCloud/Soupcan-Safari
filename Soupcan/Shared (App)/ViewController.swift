@@ -16,7 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "net.acrossthecloud.Soupcan.Extension"
+let extensionBundleIdentifier = "net.acrossthecloud.Soupcan.SafariExtension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
