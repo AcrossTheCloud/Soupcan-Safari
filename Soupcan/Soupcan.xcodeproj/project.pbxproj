@@ -7,140 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34D929702A68CDE200256B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9296F2A68CDE200256B29 /* AppDelegate.swift */; };
-		34D929722A68CDE200256B29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D929712A68CDE200256B29 /* SceneDelegate.swift */; };
-		34D929752A68CDE200256B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D929732A68CDE200256B29 /* LaunchScreen.storyboard */; };
-		34D929782A68CDE200256B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D929762A68CDE200256B29 /* Main.storyboard */; };
-		34D929812A68CDE200256B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D929802A68CDE200256B29 /* AppDelegate.swift */; };
-		34D929842A68CDE200256B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D929822A68CDE200256B29 /* Main.storyboard */; };
-		34D9298C2A68CDE200256B29 /* Soupcan Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 34D9298B2A68CDE200256B29 /* Soupcan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		34D929962A68CDE200256B29 /* Soupcan Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 34D929952A68CDE200256B29 /* Soupcan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		34D9299C2A68CDE200256B29 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D9295F2A68CDE200256B29 /* Main.html */; };
-		34D9299D2A68CDE200256B29 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D9295F2A68CDE200256B29 /* Main.html */; };
-		34D9299E2A68CDE200256B29 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929612A68CDE200256B29 /* Icon.png */; };
-		34D9299F2A68CDE200256B29 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929612A68CDE200256B29 /* Icon.png */; };
-		34D929A02A68CDE200256B29 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929622A68CDE200256B29 /* Style.css */; };
-		34D929A12A68CDE200256B29 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929622A68CDE200256B29 /* Style.css */; };
-		34D929A22A68CDE200256B29 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929632A68CDE200256B29 /* Script.js */; };
-		34D929A32A68CDE200256B29 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929632A68CDE200256B29 /* Script.js */; };
-		34D929A42A68CDE200256B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D929642A68CDE200256B29 /* ViewController.swift */; };
-		34D929A52A68CDE200256B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D929642A68CDE200256B29 /* ViewController.swift */; };
-		34D929A62A68CDE200256B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D929652A68CDE200256B29 /* Assets.xcassets */; };
-		34D929A72A68CDE200256B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D929652A68CDE200256B29 /* Assets.xcassets */; };
-		34D929A82A68CDE200256B29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D929672A68CDE200256B29 /* SafariWebExtensionHandler.swift */; };
-		34D929A92A68CDE200256B29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D929672A68CDE200256B29 /* SafariWebExtensionHandler.swift */; };
-		34D929E02A68CDE300256B29 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BB2A68CDE300256B29 /* bootstrap.min.css */; };
-		34D929E12A68CDE300256B29 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BC2A68CDE300256B29 /* icon16.png */; };
-		34D929E22A68CDE300256B29 /* database.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BD2A68CDE300256B29 /* database.js */; };
-		34D929E32A68CDE300256B29 /* moderation.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BE2A68CDE300256B29 /* moderation.js */; };
-		34D929E42A68CDE300256B29 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BF2A68CDE300256B29 /* manifest-firefox.json */; };
-		34D929E52A68CDE300256B29 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C02A68CDE300256B29 /* icon.png */; };
-		34D929E62A68CDE300256B29 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C12A68CDE300256B29 /* util.js */; };
-		34D929E72A68CDE300256B29 /* soupcan.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C22A68CDE300256B29 /* soupcan.css */; };
-		34D929E82A68CDE300256B29 /* icon400.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C32A68CDE300256B29 /* icon400.png */; };
-		34D929E92A68CDE300256B29 /* start.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C42A68CDE300256B29 /* start.js */; };
-		34D929EA2A68CDE300256B29 /* media-matching.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C52A68CDE300256B29 /* media-matching.js */; };
-		34D929EB2A68CDE300256B29 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C62A68CDE300256B29 /* background.js */; };
-		34D929EC2A68CDE300256B29 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C72A68CDE300256B29 /* dist */; };
-		34D929ED2A68CDE300256B29 /* awesome-notifications in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C82A68CDE300256B29 /* awesome-notifications */; };
-		34D929EE2A68CDE300256B29 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C92A68CDE300256B29 /* images */; };
-		34D929EF2A68CDE300256B29 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CA2A68CDE300256B29 /* icon48.png */; };
-		34D929F02A68CDE300256B29 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CB2A68CDE300256B29 /* options.js */; };
-		34D929F12A68CDE300256B29 /* moderation.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CC2A68CDE300256B29 /* moderation.html */; };
-		34D929F22A68CDE300256B29 /* moderation.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CD2A68CDE300256B29 /* moderation.css */; };
-		34D929F32A68CDE300256B29 /* bootstrap.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CE2A68CDE300256B29 /* bootstrap.bundle.min.js */; };
-		34D929F42A68CDE300256B29 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CF2A68CDE300256B29 /* start.html */; };
-		34D929F52A68CDE300256B29 /* theme.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D02A68CDE300256B29 /* theme.js */; };
-		34D929F62A68CDE300256B29 /* shinigami_eyes_data2.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D12A68CDE300256B29 /* shinigami_eyes_data2.js */; };
-		34D929F72A68CDE300256B29 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D22A68CDE300256B29 /* icon128.png */; };
-		34D929F82A68CDE300256B29 /* fetch-progress.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D32A68CDE300256B29 /* fetch-progress.js */; };
-		34D929F92A68CDE300256B29 /* shinigami_eyes_data1.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D42A68CDE300256B29 /* shinigami_eyes_data1.js */; };
-		34D929FA2A68CDE300256B29 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D52A68CDE300256B29 /* manifest.json */; };
-		34D929FB2A68CDE300256B29 /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D62A68CDE300256B29 /* start.css */; };
-		34D929FC2A68CDE300256B29 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D72A68CDE300256B29 /* options.html */; };
-		34D929FD2A68CDE300256B29 /* soupcan.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D82A68CDE300256B29 /* soupcan.js */; };
-		34D929FE2A68CDE300256B29 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D92A68CDE300256B29 /* _locales */; };
-		34D929FF2A68CDE300256B29 /* shinigami.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DA2A68CDE300256B29 /* shinigami.js */; };
-		34D92A002A68CDE300256B29 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DB2A68CDE300256B29 /* fonts */; };
-		34D92A012A68CDE300256B29 /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DC2A68CDE300256B29 /* icon24.png */; };
-		34D92A022A68CDE300256B29 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DD2A68CDE300256B29 /* options.css */; };
-		34D92A032A68CDE300256B29 /* create_extension_packages.py in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DE2A68CDE300256B29 /* create_extension_packages.py */; };
-		34D92A042A68CDE300256B29 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DF2A68CDE300256B29 /* icon32.png */; };
-		34D92A052A68CDE300256B29 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BB2A68CDE300256B29 /* bootstrap.min.css */; };
-		34D92A062A68CDE300256B29 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BC2A68CDE300256B29 /* icon16.png */; };
-		34D92A072A68CDE300256B29 /* database.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BD2A68CDE300256B29 /* database.js */; };
-		34D92A082A68CDE300256B29 /* moderation.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BE2A68CDE300256B29 /* moderation.js */; };
-		34D92A092A68CDE300256B29 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 34D929BF2A68CDE300256B29 /* manifest-firefox.json */; };
-		34D92A0A2A68CDE300256B29 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C02A68CDE300256B29 /* icon.png */; };
-		34D92A0B2A68CDE300256B29 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C12A68CDE300256B29 /* util.js */; };
-		34D92A0C2A68CDE300256B29 /* soupcan.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C22A68CDE300256B29 /* soupcan.css */; };
-		34D92A0D2A68CDE300256B29 /* icon400.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C32A68CDE300256B29 /* icon400.png */; };
-		34D92A0E2A68CDE300256B29 /* start.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C42A68CDE300256B29 /* start.js */; };
-		34D92A0F2A68CDE300256B29 /* media-matching.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C52A68CDE300256B29 /* media-matching.js */; };
-		34D92A102A68CDE300256B29 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C62A68CDE300256B29 /* background.js */; };
-		34D92A112A68CDE300256B29 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C72A68CDE300256B29 /* dist */; };
-		34D92A122A68CDE300256B29 /* awesome-notifications in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C82A68CDE300256B29 /* awesome-notifications */; };
-		34D92A132A68CDE300256B29 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 34D929C92A68CDE300256B29 /* images */; };
-		34D92A142A68CDE300256B29 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CA2A68CDE300256B29 /* icon48.png */; };
-		34D92A152A68CDE300256B29 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CB2A68CDE300256B29 /* options.js */; };
-		34D92A162A68CDE300256B29 /* moderation.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CC2A68CDE300256B29 /* moderation.html */; };
-		34D92A172A68CDE300256B29 /* moderation.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CD2A68CDE300256B29 /* moderation.css */; };
-		34D92A182A68CDE300256B29 /* bootstrap.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CE2A68CDE300256B29 /* bootstrap.bundle.min.js */; };
-		34D92A192A68CDE300256B29 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D929CF2A68CDE300256B29 /* start.html */; };
-		34D92A1A2A68CDE300256B29 /* theme.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D02A68CDE300256B29 /* theme.js */; };
-		34D92A1B2A68CDE300256B29 /* shinigami_eyes_data2.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D12A68CDE300256B29 /* shinigami_eyes_data2.js */; };
-		34D92A1C2A68CDE300256B29 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D22A68CDE300256B29 /* icon128.png */; };
-		34D92A1D2A68CDE300256B29 /* fetch-progress.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D32A68CDE300256B29 /* fetch-progress.js */; };
-		34D92A1E2A68CDE300256B29 /* shinigami_eyes_data1.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D42A68CDE300256B29 /* shinigami_eyes_data1.js */; };
-		34D92A1F2A68CDE300256B29 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D52A68CDE300256B29 /* manifest.json */; };
-		34D92A202A68CDE300256B29 /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D62A68CDE300256B29 /* start.css */; };
-		34D92A212A68CDE300256B29 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D72A68CDE300256B29 /* options.html */; };
-		34D92A222A68CDE300256B29 /* soupcan.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D82A68CDE300256B29 /* soupcan.js */; };
-		34D92A232A68CDE300256B29 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 34D929D92A68CDE300256B29 /* _locales */; };
-		34D92A242A68CDE300256B29 /* shinigami.js in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DA2A68CDE300256B29 /* shinigami.js */; };
-		34D92A252A68CDE300256B29 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DB2A68CDE300256B29 /* fonts */; };
-		34D92A262A68CDE300256B29 /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DC2A68CDE300256B29 /* icon24.png */; };
-		34D92A272A68CDE300256B29 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DD2A68CDE300256B29 /* options.css */; };
-		34D92A282A68CDE300256B29 /* create_extension_packages.py in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DE2A68CDE300256B29 /* create_extension_packages.py */; };
-		34D92A292A68CDE300256B29 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D929DF2A68CDE300256B29 /* icon32.png */; };
+		34E62A2C2AFCABC9001BA022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A2B2AFCABC9001BA022 /* AppDelegate.swift */; };
+		34E62A2E2AFCABC9001BA022 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A2D2AFCABC9001BA022 /* SceneDelegate.swift */; };
+		34E62A312AFCABC9001BA022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A2F2AFCABC9001BA022 /* LaunchScreen.storyboard */; };
+		34E62A342AFCABC9001BA022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A322AFCABC9001BA022 /* Main.storyboard */; };
+		34E62A3D2AFCABC9001BA022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A3C2AFCABC9001BA022 /* AppDelegate.swift */; };
+		34E62A402AFCABC9001BA022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A3E2AFCABC9001BA022 /* Main.storyboard */; };
+		34E62A482AFCABC9001BA022 /* Soupcan Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 34E62A472AFCABC9001BA022 /* Soupcan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34E62A522AFCABC9001BA022 /* Soupcan Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 34E62A512AFCABC9001BA022 /* Soupcan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34E62A582AFCABC9001BA022 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1B2AFCABC8001BA022 /* Main.html */; };
+		34E62A592AFCABC9001BA022 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1B2AFCABC8001BA022 /* Main.html */; };
+		34E62A5A2AFCABC9001BA022 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1D2AFCABC8001BA022 /* Icon.png */; };
+		34E62A5B2AFCABC9001BA022 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1D2AFCABC8001BA022 /* Icon.png */; };
+		34E62A5C2AFCABC9001BA022 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1E2AFCABC8001BA022 /* Style.css */; };
+		34E62A5D2AFCABC9001BA022 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1E2AFCABC8001BA022 /* Style.css */; };
+		34E62A5E2AFCABC9001BA022 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1F2AFCABC8001BA022 /* Script.js */; };
+		34E62A5F2AFCABC9001BA022 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A1F2AFCABC8001BA022 /* Script.js */; };
+		34E62A602AFCABC9001BA022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A202AFCABC8001BA022 /* ViewController.swift */; };
+		34E62A612AFCABC9001BA022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A202AFCABC8001BA022 /* ViewController.swift */; };
+		34E62A622AFCABC9001BA022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A212AFCABC9001BA022 /* Assets.xcassets */; };
+		34E62A632AFCABC9001BA022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A212AFCABC9001BA022 /* Assets.xcassets */; };
+		34E62A642AFCABC9001BA022 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A232AFCABC9001BA022 /* SafariWebExtensionHandler.swift */; };
+		34E62A652AFCABC9001BA022 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E62A232AFCABC9001BA022 /* SafariWebExtensionHandler.swift */; };
+		34E62A9C2AFCABC9001BA022 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A772AFCABC9001BA022 /* bootstrap.min.css */; };
+		34E62A9D2AFCABC9001BA022 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A782AFCABC9001BA022 /* icon16.png */; };
+		34E62A9E2AFCABC9001BA022 /* database.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A792AFCABC9001BA022 /* database.js */; };
+		34E62A9F2AFCABC9001BA022 /* moderation.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7A2AFCABC9001BA022 /* moderation.js */; };
+		34E62AA02AFCABC9001BA022 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7B2AFCABC9001BA022 /* manifest-firefox.json */; };
+		34E62AA12AFCABC9001BA022 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7C2AFCABC9001BA022 /* icon.png */; };
+		34E62AA22AFCABC9001BA022 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7D2AFCABC9001BA022 /* util.js */; };
+		34E62AA32AFCABC9001BA022 /* soupcan.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7E2AFCABC9001BA022 /* soupcan.css */; };
+		34E62AA42AFCABC9001BA022 /* icon400.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7F2AFCABC9001BA022 /* icon400.png */; };
+		34E62AA52AFCABC9001BA022 /* start.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A802AFCABC9001BA022 /* start.js */; };
+		34E62AA62AFCABC9001BA022 /* media-matching.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A812AFCABC9001BA022 /* media-matching.js */; };
+		34E62AA72AFCABC9001BA022 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A822AFCABC9001BA022 /* background.js */; };
+		34E62AA82AFCABC9001BA022 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A832AFCABC9001BA022 /* dist */; };
+		34E62AA92AFCABC9001BA022 /* awesome-notifications in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A842AFCABC9001BA022 /* awesome-notifications */; };
+		34E62AAA2AFCABC9001BA022 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A852AFCABC9001BA022 /* images */; };
+		34E62AAB2AFCABC9001BA022 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A862AFCABC9001BA022 /* icon48.png */; };
+		34E62AAC2AFCABC9001BA022 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A872AFCABC9001BA022 /* options.js */; };
+		34E62AAD2AFCABC9001BA022 /* moderation.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A882AFCABC9001BA022 /* moderation.html */; };
+		34E62AAE2AFCABC9001BA022 /* moderation.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A892AFCABC9001BA022 /* moderation.css */; };
+		34E62AAF2AFCABC9001BA022 /* bootstrap.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8A2AFCABC9001BA022 /* bootstrap.bundle.min.js */; };
+		34E62AB02AFCABC9001BA022 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8B2AFCABC9001BA022 /* start.html */; };
+		34E62AB12AFCABC9001BA022 /* theme.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8C2AFCABC9001BA022 /* theme.js */; };
+		34E62AB22AFCABC9001BA022 /* shinigami_eyes_data2.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8D2AFCABC9001BA022 /* shinigami_eyes_data2.js */; };
+		34E62AB32AFCABC9001BA022 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8E2AFCABC9001BA022 /* icon128.png */; };
+		34E62AB42AFCABC9001BA022 /* fetch-progress.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8F2AFCABC9001BA022 /* fetch-progress.js */; };
+		34E62AB52AFCABC9001BA022 /* shinigami_eyes_data1.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A902AFCABC9001BA022 /* shinigami_eyes_data1.js */; };
+		34E62AB62AFCABC9001BA022 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A912AFCABC9001BA022 /* manifest.json */; };
+		34E62AB72AFCABC9001BA022 /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A922AFCABC9001BA022 /* start.css */; };
+		34E62AB82AFCABC9001BA022 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A932AFCABC9001BA022 /* options.html */; };
+		34E62AB92AFCABC9001BA022 /* soupcan.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A942AFCABC9001BA022 /* soupcan.js */; };
+		34E62ABA2AFCABC9001BA022 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A952AFCABC9001BA022 /* _locales */; };
+		34E62ABB2AFCABC9001BA022 /* shinigami.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A962AFCABC9001BA022 /* shinigami.js */; };
+		34E62ABC2AFCABC9001BA022 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A972AFCABC9001BA022 /* fonts */; };
+		34E62ABD2AFCABC9001BA022 /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A982AFCABC9001BA022 /* icon24.png */; };
+		34E62ABE2AFCABC9001BA022 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A992AFCABC9001BA022 /* options.css */; };
+		34E62ABF2AFCABC9001BA022 /* create_extension_packages.py in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A9A2AFCABC9001BA022 /* create_extension_packages.py */; };
+		34E62AC02AFCABC9001BA022 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A9B2AFCABC9001BA022 /* icon32.png */; };
+		34E62AC12AFCABC9001BA022 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A772AFCABC9001BA022 /* bootstrap.min.css */; };
+		34E62AC22AFCABC9001BA022 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A782AFCABC9001BA022 /* icon16.png */; };
+		34E62AC32AFCABC9001BA022 /* database.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A792AFCABC9001BA022 /* database.js */; };
+		34E62AC42AFCABC9001BA022 /* moderation.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7A2AFCABC9001BA022 /* moderation.js */; };
+		34E62AC52AFCABC9001BA022 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7B2AFCABC9001BA022 /* manifest-firefox.json */; };
+		34E62AC62AFCABC9001BA022 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7C2AFCABC9001BA022 /* icon.png */; };
+		34E62AC72AFCABC9001BA022 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7D2AFCABC9001BA022 /* util.js */; };
+		34E62AC82AFCABC9001BA022 /* soupcan.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7E2AFCABC9001BA022 /* soupcan.css */; };
+		34E62AC92AFCABC9001BA022 /* icon400.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A7F2AFCABC9001BA022 /* icon400.png */; };
+		34E62ACA2AFCABC9001BA022 /* start.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A802AFCABC9001BA022 /* start.js */; };
+		34E62ACB2AFCABC9001BA022 /* media-matching.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A812AFCABC9001BA022 /* media-matching.js */; };
+		34E62ACC2AFCABC9001BA022 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A822AFCABC9001BA022 /* background.js */; };
+		34E62ACD2AFCABC9001BA022 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A832AFCABC9001BA022 /* dist */; };
+		34E62ACE2AFCABC9001BA022 /* awesome-notifications in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A842AFCABC9001BA022 /* awesome-notifications */; };
+		34E62ACF2AFCABC9001BA022 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A852AFCABC9001BA022 /* images */; };
+		34E62AD02AFCABC9001BA022 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A862AFCABC9001BA022 /* icon48.png */; };
+		34E62AD12AFCABC9001BA022 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A872AFCABC9001BA022 /* options.js */; };
+		34E62AD22AFCABC9001BA022 /* moderation.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A882AFCABC9001BA022 /* moderation.html */; };
+		34E62AD32AFCABC9001BA022 /* moderation.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A892AFCABC9001BA022 /* moderation.css */; };
+		34E62AD42AFCABC9001BA022 /* bootstrap.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8A2AFCABC9001BA022 /* bootstrap.bundle.min.js */; };
+		34E62AD52AFCABC9001BA022 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8B2AFCABC9001BA022 /* start.html */; };
+		34E62AD62AFCABC9001BA022 /* theme.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8C2AFCABC9001BA022 /* theme.js */; };
+		34E62AD72AFCABC9001BA022 /* shinigami_eyes_data2.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8D2AFCABC9001BA022 /* shinigami_eyes_data2.js */; };
+		34E62AD82AFCABC9001BA022 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8E2AFCABC9001BA022 /* icon128.png */; };
+		34E62AD92AFCABC9001BA022 /* fetch-progress.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A8F2AFCABC9001BA022 /* fetch-progress.js */; };
+		34E62ADA2AFCABC9001BA022 /* shinigami_eyes_data1.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A902AFCABC9001BA022 /* shinigami_eyes_data1.js */; };
+		34E62ADB2AFCABC9001BA022 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A912AFCABC9001BA022 /* manifest.json */; };
+		34E62ADC2AFCABC9001BA022 /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A922AFCABC9001BA022 /* start.css */; };
+		34E62ADD2AFCABC9001BA022 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A932AFCABC9001BA022 /* options.html */; };
+		34E62ADE2AFCABC9001BA022 /* soupcan.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A942AFCABC9001BA022 /* soupcan.js */; };
+		34E62ADF2AFCABC9001BA022 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A952AFCABC9001BA022 /* _locales */; };
+		34E62AE02AFCABC9001BA022 /* shinigami.js in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A962AFCABC9001BA022 /* shinigami.js */; };
+		34E62AE12AFCABC9001BA022 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A972AFCABC9001BA022 /* fonts */; };
+		34E62AE22AFCABC9001BA022 /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A982AFCABC9001BA022 /* icon24.png */; };
+		34E62AE32AFCABC9001BA022 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A992AFCABC9001BA022 /* options.css */; };
+		34E62AE42AFCABC9001BA022 /* create_extension_packages.py in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A9A2AFCABC9001BA022 /* create_extension_packages.py */; };
+		34E62AE52AFCABC9001BA022 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E62A9B2AFCABC9001BA022 /* icon32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34D9298D2A68CDE200256B29 /* PBXContainerItemProxy */ = {
+		34E62A492AFCABC9001BA022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 34D929592A68CDE100256B29 /* Project object */;
+			containerPortal = 34E62A152AFCABC8001BA022 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34D9298A2A68CDE200256B29;
+			remoteGlobalIDString = 34E62A462AFCABC9001BA022;
 			remoteInfo = "Soupcan Extension (iOS)";
 		};
-		34D929972A68CDE200256B29 /* PBXContainerItemProxy */ = {
+		34E62A532AFCABC9001BA022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 34D929592A68CDE100256B29 /* Project object */;
+			containerPortal = 34E62A152AFCABC8001BA022 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34D929942A68CDE200256B29;
+			remoteGlobalIDString = 34E62A502AFCABC9001BA022;
 			remoteInfo = "Soupcan Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		34D929AF2A68CDE200256B29 /* Embed Foundation Extensions */ = {
+		34E62A6B2AFCABC9001BA022 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				34D9298C2A68CDE200256B29 /* Soupcan Extension.appex in Embed Foundation Extensions */,
+				34E62A482AFCABC9001BA022 /* Soupcan Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929B62A68CDE200256B29 /* Embed Foundation Extensions */ = {
+		34E62A722AFCABC9001BA022 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				34D929962A68CDE200256B29 /* Soupcan Extension.appex in Embed Foundation Extensions */,
+				34E62A522AFCABC9001BA022 /* Soupcan Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,91 +148,91 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		34D929602A68CDE200256B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		34D929612A68CDE200256B29 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		34D929622A68CDE200256B29 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		34D929632A68CDE200256B29 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		34D929642A68CDE200256B29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34D929652A68CDE200256B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34D929672A68CDE200256B29 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		34D9296C2A68CDE200256B29 /* Soupcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soupcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		34D9296F2A68CDE200256B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34D929712A68CDE200256B29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34D929742A68CDE200256B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		34D929772A68CDE200256B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		34D929792A68CDE200256B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34D9297E2A68CDE200256B29 /* Soupcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soupcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		34D929802A68CDE200256B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34D929832A68CDE200256B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		34D929852A68CDE200256B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34D929862A68CDE200256B29 /* Soupcan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soupcan.entitlements; sourceTree = "<group>"; };
-		34D9298B2A68CDE200256B29 /* Soupcan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soupcan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34D929902A68CDE200256B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34D929952A68CDE200256B29 /* Soupcan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soupcan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34D9299A2A68CDE200256B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34D9299B2A68CDE200256B29 /* Soupcan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soupcan.entitlements; sourceTree = "<group>"; };
-		34D929BB2A68CDE300256B29 /* bootstrap.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = bootstrap.min.css; path = "../../soupcan-extension/manifest-v3/bootstrap.min.css"; sourceTree = "<group>"; };
-		34D929BC2A68CDE300256B29 /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = "../../soupcan-extension/manifest-v3/icon16.png"; sourceTree = "<group>"; };
-		34D929BD2A68CDE300256B29 /* database.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = database.js; path = "../../soupcan-extension/manifest-v3/database.js"; sourceTree = "<group>"; };
-		34D929BE2A68CDE300256B29 /* moderation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = moderation.js; path = "../../soupcan-extension/manifest-v3/moderation.js"; sourceTree = "<group>"; };
-		34D929BF2A68CDE300256B29 /* manifest-firefox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-firefox.json"; path = "../../soupcan-extension/manifest-v3/manifest-firefox.json"; sourceTree = "<group>"; };
-		34D929C02A68CDE300256B29 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../soupcan-extension/manifest-v3/icon.png"; sourceTree = "<group>"; };
-		34D929C12A68CDE300256B29 /* util.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = util.js; path = "../../soupcan-extension/manifest-v3/util.js"; sourceTree = "<group>"; };
-		34D929C22A68CDE300256B29 /* soupcan.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = soupcan.css; path = "../../soupcan-extension/manifest-v3/soupcan.css"; sourceTree = "<group>"; };
-		34D929C32A68CDE300256B29 /* icon400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon400.png; path = "../../soupcan-extension/manifest-v3/icon400.png"; sourceTree = "<group>"; };
-		34D929C42A68CDE300256B29 /* start.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = start.js; path = "../../soupcan-extension/manifest-v3/start.js"; sourceTree = "<group>"; };
-		34D929C52A68CDE300256B29 /* media-matching.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "media-matching.js"; path = "../../soupcan-extension/manifest-v3/media-matching.js"; sourceTree = "<group>"; };
-		34D929C62A68CDE300256B29 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../soupcan-extension/manifest-v3/background.js"; sourceTree = "<group>"; };
-		34D929C72A68CDE300256B29 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "../../soupcan-extension/manifest-v3/dist"; sourceTree = "<group>"; };
-		34D929C82A68CDE300256B29 /* awesome-notifications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "awesome-notifications"; path = "../../soupcan-extension/manifest-v3/awesome-notifications"; sourceTree = "<group>"; };
-		34D929C92A68CDE300256B29 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../soupcan-extension/manifest-v3/images"; sourceTree = "<group>"; };
-		34D929CA2A68CDE300256B29 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = "../../soupcan-extension/manifest-v3/icon48.png"; sourceTree = "<group>"; };
-		34D929CB2A68CDE300256B29 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = "../../soupcan-extension/manifest-v3/options.js"; sourceTree = "<group>"; };
-		34D929CC2A68CDE300256B29 /* moderation.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = moderation.html; path = "../../soupcan-extension/manifest-v3/moderation.html"; sourceTree = "<group>"; };
-		34D929CD2A68CDE300256B29 /* moderation.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = moderation.css; path = "../../soupcan-extension/manifest-v3/moderation.css"; sourceTree = "<group>"; };
-		34D929CE2A68CDE300256B29 /* bootstrap.bundle.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bootstrap.bundle.min.js; path = "../../soupcan-extension/manifest-v3/bootstrap.bundle.min.js"; sourceTree = "<group>"; };
-		34D929CF2A68CDE300256B29 /* start.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = start.html; path = "../../soupcan-extension/manifest-v3/start.html"; sourceTree = "<group>"; };
-		34D929D02A68CDE300256B29 /* theme.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = theme.js; path = "../../soupcan-extension/manifest-v3/theme.js"; sourceTree = "<group>"; };
-		34D929D12A68CDE300256B29 /* shinigami_eyes_data2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = shinigami_eyes_data2.js; path = "../../soupcan-extension/manifest-v3/shinigami_eyes_data2.js"; sourceTree = "<group>"; };
-		34D929D22A68CDE300256B29 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "../../soupcan-extension/manifest-v3/icon128.png"; sourceTree = "<group>"; };
-		34D929D32A68CDE300256B29 /* fetch-progress.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "fetch-progress.js"; path = "../../soupcan-extension/manifest-v3/fetch-progress.js"; sourceTree = "<group>"; };
-		34D929D42A68CDE300256B29 /* shinigami_eyes_data1.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = shinigami_eyes_data1.js; path = "../../soupcan-extension/manifest-v3/shinigami_eyes_data1.js"; sourceTree = "<group>"; };
-		34D929D52A68CDE300256B29 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../soupcan-extension/manifest-v3/manifest.json"; sourceTree = "<group>"; };
-		34D929D62A68CDE300256B29 /* start.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = start.css; path = "../../soupcan-extension/manifest-v3/start.css"; sourceTree = "<group>"; };
-		34D929D72A68CDE300256B29 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../soupcan-extension/manifest-v3/options.html"; sourceTree = "<group>"; };
-		34D929D82A68CDE300256B29 /* soupcan.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = soupcan.js; path = "../../soupcan-extension/manifest-v3/soupcan.js"; sourceTree = "<group>"; };
-		34D929D92A68CDE300256B29 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../soupcan-extension/manifest-v3/_locales"; sourceTree = "<group>"; };
-		34D929DA2A68CDE300256B29 /* shinigami.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = shinigami.js; path = "../../soupcan-extension/manifest-v3/shinigami.js"; sourceTree = "<group>"; };
-		34D929DB2A68CDE300256B29 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "../../soupcan-extension/manifest-v3/fonts"; sourceTree = "<group>"; };
-		34D929DC2A68CDE300256B29 /* icon24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon24.png; path = "../../soupcan-extension/manifest-v3/icon24.png"; sourceTree = "<group>"; };
-		34D929DD2A68CDE300256B29 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = "../../soupcan-extension/manifest-v3/options.css"; sourceTree = "<group>"; };
-		34D929DE2A68CDE300256B29 /* create_extension_packages.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = create_extension_packages.py; path = "../../soupcan-extension/manifest-v3/create_extension_packages.py"; sourceTree = "<group>"; };
-		34D929DF2A68CDE300256B29 /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon32.png; path = "../../soupcan-extension/manifest-v3/icon32.png"; sourceTree = "<group>"; };
+		34E62A1C2AFCABC8001BA022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		34E62A1D2AFCABC8001BA022 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		34E62A1E2AFCABC8001BA022 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		34E62A1F2AFCABC8001BA022 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		34E62A202AFCABC8001BA022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34E62A212AFCABC9001BA022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34E62A232AFCABC9001BA022 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		34E62A282AFCABC9001BA022 /* Soupcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soupcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E62A2B2AFCABC9001BA022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34E62A2D2AFCABC9001BA022 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34E62A302AFCABC9001BA022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34E62A332AFCABC9001BA022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34E62A352AFCABC9001BA022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E62A3A2AFCABC9001BA022 /* Soupcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soupcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E62A3C2AFCABC9001BA022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34E62A3F2AFCABC9001BA022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34E62A412AFCABC9001BA022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E62A422AFCABC9001BA022 /* Soupcan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soupcan.entitlements; sourceTree = "<group>"; };
+		34E62A472AFCABC9001BA022 /* Soupcan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soupcan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E62A4C2AFCABC9001BA022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E62A512AFCABC9001BA022 /* Soupcan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soupcan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E62A562AFCABC9001BA022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E62A572AFCABC9001BA022 /* Soupcan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soupcan.entitlements; sourceTree = "<group>"; };
+		34E62A772AFCABC9001BA022 /* bootstrap.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = bootstrap.min.css; path = "../../soupcan-extension/manifest-v3/bootstrap.min.css"; sourceTree = "<group>"; };
+		34E62A782AFCABC9001BA022 /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = "../../soupcan-extension/manifest-v3/icon16.png"; sourceTree = "<group>"; };
+		34E62A792AFCABC9001BA022 /* database.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = database.js; path = "../../soupcan-extension/manifest-v3/database.js"; sourceTree = "<group>"; };
+		34E62A7A2AFCABC9001BA022 /* moderation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = moderation.js; path = "../../soupcan-extension/manifest-v3/moderation.js"; sourceTree = "<group>"; };
+		34E62A7B2AFCABC9001BA022 /* manifest-firefox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-firefox.json"; path = "../../soupcan-extension/manifest-v3/manifest-firefox.json"; sourceTree = "<group>"; };
+		34E62A7C2AFCABC9001BA022 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../soupcan-extension/manifest-v3/icon.png"; sourceTree = "<group>"; };
+		34E62A7D2AFCABC9001BA022 /* util.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = util.js; path = "../../soupcan-extension/manifest-v3/util.js"; sourceTree = "<group>"; };
+		34E62A7E2AFCABC9001BA022 /* soupcan.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = soupcan.css; path = "../../soupcan-extension/manifest-v3/soupcan.css"; sourceTree = "<group>"; };
+		34E62A7F2AFCABC9001BA022 /* icon400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon400.png; path = "../../soupcan-extension/manifest-v3/icon400.png"; sourceTree = "<group>"; };
+		34E62A802AFCABC9001BA022 /* start.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = start.js; path = "../../soupcan-extension/manifest-v3/start.js"; sourceTree = "<group>"; };
+		34E62A812AFCABC9001BA022 /* media-matching.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "media-matching.js"; path = "../../soupcan-extension/manifest-v3/media-matching.js"; sourceTree = "<group>"; };
+		34E62A822AFCABC9001BA022 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../soupcan-extension/manifest-v3/background.js"; sourceTree = "<group>"; };
+		34E62A832AFCABC9001BA022 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "../../soupcan-extension/manifest-v3/dist"; sourceTree = "<group>"; };
+		34E62A842AFCABC9001BA022 /* awesome-notifications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "awesome-notifications"; path = "../../soupcan-extension/manifest-v3/awesome-notifications"; sourceTree = "<group>"; };
+		34E62A852AFCABC9001BA022 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../soupcan-extension/manifest-v3/images"; sourceTree = "<group>"; };
+		34E62A862AFCABC9001BA022 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = "../../soupcan-extension/manifest-v3/icon48.png"; sourceTree = "<group>"; };
+		34E62A872AFCABC9001BA022 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = "../../soupcan-extension/manifest-v3/options.js"; sourceTree = "<group>"; };
+		34E62A882AFCABC9001BA022 /* moderation.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = moderation.html; path = "../../soupcan-extension/manifest-v3/moderation.html"; sourceTree = "<group>"; };
+		34E62A892AFCABC9001BA022 /* moderation.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = moderation.css; path = "../../soupcan-extension/manifest-v3/moderation.css"; sourceTree = "<group>"; };
+		34E62A8A2AFCABC9001BA022 /* bootstrap.bundle.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bootstrap.bundle.min.js; path = "../../soupcan-extension/manifest-v3/bootstrap.bundle.min.js"; sourceTree = "<group>"; };
+		34E62A8B2AFCABC9001BA022 /* start.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = start.html; path = "../../soupcan-extension/manifest-v3/start.html"; sourceTree = "<group>"; };
+		34E62A8C2AFCABC9001BA022 /* theme.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = theme.js; path = "../../soupcan-extension/manifest-v3/theme.js"; sourceTree = "<group>"; };
+		34E62A8D2AFCABC9001BA022 /* shinigami_eyes_data2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = shinigami_eyes_data2.js; path = "../../soupcan-extension/manifest-v3/shinigami_eyes_data2.js"; sourceTree = "<group>"; };
+		34E62A8E2AFCABC9001BA022 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "../../soupcan-extension/manifest-v3/icon128.png"; sourceTree = "<group>"; };
+		34E62A8F2AFCABC9001BA022 /* fetch-progress.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "fetch-progress.js"; path = "../../soupcan-extension/manifest-v3/fetch-progress.js"; sourceTree = "<group>"; };
+		34E62A902AFCABC9001BA022 /* shinigami_eyes_data1.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = shinigami_eyes_data1.js; path = "../../soupcan-extension/manifest-v3/shinigami_eyes_data1.js"; sourceTree = "<group>"; };
+		34E62A912AFCABC9001BA022 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../soupcan-extension/manifest-v3/manifest.json"; sourceTree = "<group>"; };
+		34E62A922AFCABC9001BA022 /* start.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = start.css; path = "../../soupcan-extension/manifest-v3/start.css"; sourceTree = "<group>"; };
+		34E62A932AFCABC9001BA022 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../soupcan-extension/manifest-v3/options.html"; sourceTree = "<group>"; };
+		34E62A942AFCABC9001BA022 /* soupcan.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = soupcan.js; path = "../../soupcan-extension/manifest-v3/soupcan.js"; sourceTree = "<group>"; };
+		34E62A952AFCABC9001BA022 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../soupcan-extension/manifest-v3/_locales"; sourceTree = "<group>"; };
+		34E62A962AFCABC9001BA022 /* shinigami.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = shinigami.js; path = "../../soupcan-extension/manifest-v3/shinigami.js"; sourceTree = "<group>"; };
+		34E62A972AFCABC9001BA022 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "../../soupcan-extension/manifest-v3/fonts"; sourceTree = "<group>"; };
+		34E62A982AFCABC9001BA022 /* icon24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon24.png; path = "../../soupcan-extension/manifest-v3/icon24.png"; sourceTree = "<group>"; };
+		34E62A992AFCABC9001BA022 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = "../../soupcan-extension/manifest-v3/options.css"; sourceTree = "<group>"; };
+		34E62A9A2AFCABC9001BA022 /* create_extension_packages.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = create_extension_packages.py; path = "../../soupcan-extension/manifest-v3/create_extension_packages.py"; sourceTree = "<group>"; };
+		34E62A9B2AFCABC9001BA022 /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon32.png; path = "../../soupcan-extension/manifest-v3/icon32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34D929692A68CDE200256B29 /* Frameworks */ = {
+		34E62A252AFCABC9001BA022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D9297B2A68CDE200256B29 /* Frameworks */ = {
+		34E62A372AFCABC9001BA022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929882A68CDE200256B29 /* Frameworks */ = {
+		34E62A442AFCABC9001BA022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929922A68CDE200256B29 /* Frameworks */ = {
+		34E62A4E2AFCABC9001BA022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,140 +242,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34D929582A68CDE100256B29 = {
+		34E62A142AFCABC8001BA022 = {
 			isa = PBXGroup;
 			children = (
-				34D9295D2A68CDE200256B29 /* Shared (App) */,
-				34D929662A68CDE200256B29 /* Shared (Extension) */,
-				34D9296E2A68CDE200256B29 /* iOS (App) */,
-				34D9297F2A68CDE200256B29 /* macOS (App) */,
-				34D9298F2A68CDE200256B29 /* iOS (Extension) */,
-				34D929992A68CDE200256B29 /* macOS (Extension) */,
-				34D9296D2A68CDE200256B29 /* Products */,
+				34E62A192AFCABC8001BA022 /* Shared (App) */,
+				34E62A222AFCABC9001BA022 /* Shared (Extension) */,
+				34E62A2A2AFCABC9001BA022 /* iOS (App) */,
+				34E62A3B2AFCABC9001BA022 /* macOS (App) */,
+				34E62A4B2AFCABC9001BA022 /* iOS (Extension) */,
+				34E62A552AFCABC9001BA022 /* macOS (Extension) */,
+				34E62A292AFCABC9001BA022 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		34D9295D2A68CDE200256B29 /* Shared (App) */ = {
+		34E62A192AFCABC8001BA022 /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				34D929642A68CDE200256B29 /* ViewController.swift */,
-				34D929652A68CDE200256B29 /* Assets.xcassets */,
-				34D9295E2A68CDE200256B29 /* Resources */,
+				34E62A202AFCABC8001BA022 /* ViewController.swift */,
+				34E62A212AFCABC9001BA022 /* Assets.xcassets */,
+				34E62A1A2AFCABC8001BA022 /* Resources */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		34D9295E2A68CDE200256B29 /* Resources */ = {
+		34E62A1A2AFCABC8001BA022 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				34D9295F2A68CDE200256B29 /* Main.html */,
-				34D929612A68CDE200256B29 /* Icon.png */,
-				34D929622A68CDE200256B29 /* Style.css */,
-				34D929632A68CDE200256B29 /* Script.js */,
+				34E62A1B2AFCABC8001BA022 /* Main.html */,
+				34E62A1D2AFCABC8001BA022 /* Icon.png */,
+				34E62A1E2AFCABC8001BA022 /* Style.css */,
+				34E62A1F2AFCABC8001BA022 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		34D929662A68CDE200256B29 /* Shared (Extension) */ = {
+		34E62A222AFCABC9001BA022 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				34D929BA2A68CDE300256B29 /* Resources */,
-				34D929672A68CDE200256B29 /* SafariWebExtensionHandler.swift */,
+				34E62A762AFCABC9001BA022 /* Resources */,
+				34E62A232AFCABC9001BA022 /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		34D9296D2A68CDE200256B29 /* Products */ = {
+		34E62A292AFCABC9001BA022 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34D9296C2A68CDE200256B29 /* Soupcan.app */,
-				34D9297E2A68CDE200256B29 /* Soupcan.app */,
-				34D9298B2A68CDE200256B29 /* Soupcan Extension.appex */,
-				34D929952A68CDE200256B29 /* Soupcan Extension.appex */,
+				34E62A282AFCABC9001BA022 /* Soupcan.app */,
+				34E62A3A2AFCABC9001BA022 /* Soupcan.app */,
+				34E62A472AFCABC9001BA022 /* Soupcan Extension.appex */,
+				34E62A512AFCABC9001BA022 /* Soupcan Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34D9296E2A68CDE200256B29 /* iOS (App) */ = {
+		34E62A2A2AFCABC9001BA022 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				34D9296F2A68CDE200256B29 /* AppDelegate.swift */,
-				34D929712A68CDE200256B29 /* SceneDelegate.swift */,
-				34D929732A68CDE200256B29 /* LaunchScreen.storyboard */,
-				34D929762A68CDE200256B29 /* Main.storyboard */,
-				34D929792A68CDE200256B29 /* Info.plist */,
+				34E62A2B2AFCABC9001BA022 /* AppDelegate.swift */,
+				34E62A2D2AFCABC9001BA022 /* SceneDelegate.swift */,
+				34E62A2F2AFCABC9001BA022 /* LaunchScreen.storyboard */,
+				34E62A322AFCABC9001BA022 /* Main.storyboard */,
+				34E62A352AFCABC9001BA022 /* Info.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		34D9297F2A68CDE200256B29 /* macOS (App) */ = {
+		34E62A3B2AFCABC9001BA022 /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				34D929802A68CDE200256B29 /* AppDelegate.swift */,
-				34D929822A68CDE200256B29 /* Main.storyboard */,
-				34D929852A68CDE200256B29 /* Info.plist */,
-				34D929862A68CDE200256B29 /* Soupcan.entitlements */,
+				34E62A3C2AFCABC9001BA022 /* AppDelegate.swift */,
+				34E62A3E2AFCABC9001BA022 /* Main.storyboard */,
+				34E62A412AFCABC9001BA022 /* Info.plist */,
+				34E62A422AFCABC9001BA022 /* Soupcan.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		34D9298F2A68CDE200256B29 /* iOS (Extension) */ = {
+		34E62A4B2AFCABC9001BA022 /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				34D929902A68CDE200256B29 /* Info.plist */,
+				34E62A4C2AFCABC9001BA022 /* Info.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		34D929992A68CDE200256B29 /* macOS (Extension) */ = {
+		34E62A552AFCABC9001BA022 /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				34D9299A2A68CDE200256B29 /* Info.plist */,
-				34D9299B2A68CDE200256B29 /* Soupcan.entitlements */,
+				34E62A562AFCABC9001BA022 /* Info.plist */,
+				34E62A572AFCABC9001BA022 /* Soupcan.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
-		34D929BA2A68CDE300256B29 /* Resources */ = {
+		34E62A762AFCABC9001BA022 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				34D929BB2A68CDE300256B29 /* bootstrap.min.css */,
-				34D929BC2A68CDE300256B29 /* icon16.png */,
-				34D929BD2A68CDE300256B29 /* database.js */,
-				34D929BE2A68CDE300256B29 /* moderation.js */,
-				34D929BF2A68CDE300256B29 /* manifest-firefox.json */,
-				34D929C02A68CDE300256B29 /* icon.png */,
-				34D929C12A68CDE300256B29 /* util.js */,
-				34D929C22A68CDE300256B29 /* soupcan.css */,
-				34D929C32A68CDE300256B29 /* icon400.png */,
-				34D929C42A68CDE300256B29 /* start.js */,
-				34D929C52A68CDE300256B29 /* media-matching.js */,
-				34D929C62A68CDE300256B29 /* background.js */,
-				34D929C72A68CDE300256B29 /* dist */,
-				34D929C82A68CDE300256B29 /* awesome-notifications */,
-				34D929C92A68CDE300256B29 /* images */,
-				34D929CA2A68CDE300256B29 /* icon48.png */,
-				34D929CB2A68CDE300256B29 /* options.js */,
-				34D929CC2A68CDE300256B29 /* moderation.html */,
-				34D929CD2A68CDE300256B29 /* moderation.css */,
-				34D929CE2A68CDE300256B29 /* bootstrap.bundle.min.js */,
-				34D929CF2A68CDE300256B29 /* start.html */,
-				34D929D02A68CDE300256B29 /* theme.js */,
-				34D929D12A68CDE300256B29 /* shinigami_eyes_data2.js */,
-				34D929D22A68CDE300256B29 /* icon128.png */,
-				34D929D32A68CDE300256B29 /* fetch-progress.js */,
-				34D929D42A68CDE300256B29 /* shinigami_eyes_data1.js */,
-				34D929D52A68CDE300256B29 /* manifest.json */,
-				34D929D62A68CDE300256B29 /* start.css */,
-				34D929D72A68CDE300256B29 /* options.html */,
-				34D929D82A68CDE300256B29 /* soupcan.js */,
-				34D929D92A68CDE300256B29 /* _locales */,
-				34D929DA2A68CDE300256B29 /* shinigami.js */,
-				34D929DB2A68CDE300256B29 /* fonts */,
-				34D929DC2A68CDE300256B29 /* icon24.png */,
-				34D929DD2A68CDE300256B29 /* options.css */,
-				34D929DE2A68CDE300256B29 /* create_extension_packages.py */,
-				34D929DF2A68CDE300256B29 /* icon32.png */,
+				34E62A772AFCABC9001BA022 /* bootstrap.min.css */,
+				34E62A782AFCABC9001BA022 /* icon16.png */,
+				34E62A792AFCABC9001BA022 /* database.js */,
+				34E62A7A2AFCABC9001BA022 /* moderation.js */,
+				34E62A7B2AFCABC9001BA022 /* manifest-firefox.json */,
+				34E62A7C2AFCABC9001BA022 /* icon.png */,
+				34E62A7D2AFCABC9001BA022 /* util.js */,
+				34E62A7E2AFCABC9001BA022 /* soupcan.css */,
+				34E62A7F2AFCABC9001BA022 /* icon400.png */,
+				34E62A802AFCABC9001BA022 /* start.js */,
+				34E62A812AFCABC9001BA022 /* media-matching.js */,
+				34E62A822AFCABC9001BA022 /* background.js */,
+				34E62A832AFCABC9001BA022 /* dist */,
+				34E62A842AFCABC9001BA022 /* awesome-notifications */,
+				34E62A852AFCABC9001BA022 /* images */,
+				34E62A862AFCABC9001BA022 /* icon48.png */,
+				34E62A872AFCABC9001BA022 /* options.js */,
+				34E62A882AFCABC9001BA022 /* moderation.html */,
+				34E62A892AFCABC9001BA022 /* moderation.css */,
+				34E62A8A2AFCABC9001BA022 /* bootstrap.bundle.min.js */,
+				34E62A8B2AFCABC9001BA022 /* start.html */,
+				34E62A8C2AFCABC9001BA022 /* theme.js */,
+				34E62A8D2AFCABC9001BA022 /* shinigami_eyes_data2.js */,
+				34E62A8E2AFCABC9001BA022 /* icon128.png */,
+				34E62A8F2AFCABC9001BA022 /* fetch-progress.js */,
+				34E62A902AFCABC9001BA022 /* shinigami_eyes_data1.js */,
+				34E62A912AFCABC9001BA022 /* manifest.json */,
+				34E62A922AFCABC9001BA022 /* start.css */,
+				34E62A932AFCABC9001BA022 /* options.html */,
+				34E62A942AFCABC9001BA022 /* soupcan.js */,
+				34E62A952AFCABC9001BA022 /* _locales */,
+				34E62A962AFCABC9001BA022 /* shinigami.js */,
+				34E62A972AFCABC9001BA022 /* fonts */,
+				34E62A982AFCABC9001BA022 /* icon24.png */,
+				34E62A992AFCABC9001BA022 /* options.css */,
+				34E62A9A2AFCABC9001BA022 /* create_extension_packages.py */,
+				34E62A9B2AFCABC9001BA022 /* icon32.png */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
@@ -384,51 +384,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34D9296B2A68CDE200256B29 /* Soupcan (iOS) */ = {
+		34E62A272AFCABC9001BA022 /* Soupcan (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D929B02A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan (iOS)" */;
+			buildConfigurationList = 34E62A6C2AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan (iOS)" */;
 			buildPhases = (
-				34D929682A68CDE200256B29 /* Sources */,
-				34D929692A68CDE200256B29 /* Frameworks */,
-				34D9296A2A68CDE200256B29 /* Resources */,
-				34D929AF2A68CDE200256B29 /* Embed Foundation Extensions */,
+				34E62A242AFCABC9001BA022 /* Sources */,
+				34E62A252AFCABC9001BA022 /* Frameworks */,
+				34E62A262AFCABC9001BA022 /* Resources */,
+				34E62A6B2AFCABC9001BA022 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34D9298E2A68CDE200256B29 /* PBXTargetDependency */,
+				34E62A4A2AFCABC9001BA022 /* PBXTargetDependency */,
 			);
 			name = "Soupcan (iOS)";
 			productName = "Soupcan (iOS)";
-			productReference = 34D9296C2A68CDE200256B29 /* Soupcan.app */;
+			productReference = 34E62A282AFCABC9001BA022 /* Soupcan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		34D9297D2A68CDE200256B29 /* Soupcan (macOS) */ = {
+		34E62A392AFCABC9001BA022 /* Soupcan (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D929B72A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan (macOS)" */;
+			buildConfigurationList = 34E62A732AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan (macOS)" */;
 			buildPhases = (
-				34D9297A2A68CDE200256B29 /* Sources */,
-				34D9297B2A68CDE200256B29 /* Frameworks */,
-				34D9297C2A68CDE200256B29 /* Resources */,
-				34D929B62A68CDE200256B29 /* Embed Foundation Extensions */,
+				34E62A362AFCABC9001BA022 /* Sources */,
+				34E62A372AFCABC9001BA022 /* Frameworks */,
+				34E62A382AFCABC9001BA022 /* Resources */,
+				34E62A722AFCABC9001BA022 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34D929982A68CDE200256B29 /* PBXTargetDependency */,
+				34E62A542AFCABC9001BA022 /* PBXTargetDependency */,
 			);
 			name = "Soupcan (macOS)";
 			productName = "Soupcan (macOS)";
-			productReference = 34D9297E2A68CDE200256B29 /* Soupcan.app */;
+			productReference = 34E62A3A2AFCABC9001BA022 /* Soupcan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		34D9298A2A68CDE200256B29 /* Soupcan Extension (iOS) */ = {
+		34E62A462AFCABC9001BA022 /* Soupcan Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D929AC2A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan Extension (iOS)" */;
+			buildConfigurationList = 34E62A682AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan Extension (iOS)" */;
 			buildPhases = (
-				34D929872A68CDE200256B29 /* Sources */,
-				34D929882A68CDE200256B29 /* Frameworks */,
-				34D929892A68CDE200256B29 /* Resources */,
+				34E62A432AFCABC9001BA022 /* Sources */,
+				34E62A442AFCABC9001BA022 /* Frameworks */,
+				34E62A452AFCABC9001BA022 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -436,16 +436,16 @@
 			);
 			name = "Soupcan Extension (iOS)";
 			productName = "Soupcan Extension (iOS)";
-			productReference = 34D9298B2A68CDE200256B29 /* Soupcan Extension.appex */;
+			productReference = 34E62A472AFCABC9001BA022 /* Soupcan Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		34D929942A68CDE200256B29 /* Soupcan Extension (macOS) */ = {
+		34E62A502AFCABC9001BA022 /* Soupcan Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34D929B32A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan Extension (macOS)" */;
+			buildConfigurationList = 34E62A6F2AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan Extension (macOS)" */;
 			buildPhases = (
-				34D929912A68CDE200256B29 /* Sources */,
-				34D929922A68CDE200256B29 /* Frameworks */,
-				34D929932A68CDE200256B29 /* Resources */,
+				34E62A4D2AFCABC9001BA022 /* Sources */,
+				34E62A4E2AFCABC9001BA022 /* Frameworks */,
+				34E62A4F2AFCABC9001BA022 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -453,34 +453,34 @@
 			);
 			name = "Soupcan Extension (macOS)";
 			productName = "Soupcan Extension (macOS)";
-			productReference = 34D929952A68CDE200256B29 /* Soupcan Extension.appex */;
+			productReference = 34E62A512AFCABC9001BA022 /* Soupcan Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		34D929592A68CDE100256B29 /* Project object */ = {
+		34E62A152AFCABC8001BA022 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					34D9296B2A68CDE200256B29 = {
-						CreatedOnToolsVersion = 14.3.1;
+					34E62A272AFCABC9001BA022 = {
+						CreatedOnToolsVersion = 15.1;
 					};
-					34D9297D2A68CDE200256B29 = {
-						CreatedOnToolsVersion = 14.3.1;
+					34E62A392AFCABC9001BA022 = {
+						CreatedOnToolsVersion = 15.1;
 					};
-					34D9298A2A68CDE200256B29 = {
-						CreatedOnToolsVersion = 14.3.1;
+					34E62A462AFCABC9001BA022 = {
+						CreatedOnToolsVersion = 15.1;
 					};
-					34D929942A68CDE200256B29 = {
-						CreatedOnToolsVersion = 14.3.1;
+					34E62A502AFCABC9001BA022 = {
+						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 34D9295C2A68CDE100256B29 /* Build configuration list for PBXProject "Soupcan" */;
+			buildConfigurationList = 34E62A182AFCABC8001BA022 /* Build configuration list for PBXProject "Soupcan" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -488,217 +488,217 @@
 				en,
 				Base,
 			);
-			mainGroup = 34D929582A68CDE100256B29;
-			productRefGroup = 34D9296D2A68CDE200256B29 /* Products */;
+			mainGroup = 34E62A142AFCABC8001BA022;
+			productRefGroup = 34E62A292AFCABC9001BA022 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34D9296B2A68CDE200256B29 /* Soupcan (iOS) */,
-				34D9297D2A68CDE200256B29 /* Soupcan (macOS) */,
-				34D9298A2A68CDE200256B29 /* Soupcan Extension (iOS) */,
-				34D929942A68CDE200256B29 /* Soupcan Extension (macOS) */,
+				34E62A272AFCABC9001BA022 /* Soupcan (iOS) */,
+				34E62A392AFCABC9001BA022 /* Soupcan (macOS) */,
+				34E62A462AFCABC9001BA022 /* Soupcan Extension (iOS) */,
+				34E62A502AFCABC9001BA022 /* Soupcan Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		34D9296A2A68CDE200256B29 /* Resources */ = {
+		34E62A262AFCABC9001BA022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D9299E2A68CDE200256B29 /* Icon.png in Resources */,
-				34D929752A68CDE200256B29 /* LaunchScreen.storyboard in Resources */,
-				34D9299C2A68CDE200256B29 /* Main.html in Resources */,
-				34D929A22A68CDE200256B29 /* Script.js in Resources */,
-				34D929A62A68CDE200256B29 /* Assets.xcassets in Resources */,
-				34D929782A68CDE200256B29 /* Main.storyboard in Resources */,
-				34D929A02A68CDE200256B29 /* Style.css in Resources */,
+				34E62A5A2AFCABC9001BA022 /* Icon.png in Resources */,
+				34E62A312AFCABC9001BA022 /* LaunchScreen.storyboard in Resources */,
+				34E62A582AFCABC9001BA022 /* Main.html in Resources */,
+				34E62A5E2AFCABC9001BA022 /* Script.js in Resources */,
+				34E62A622AFCABC9001BA022 /* Assets.xcassets in Resources */,
+				34E62A342AFCABC9001BA022 /* Main.storyboard in Resources */,
+				34E62A5C2AFCABC9001BA022 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D9297C2A68CDE200256B29 /* Resources */ = {
+		34E62A382AFCABC9001BA022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D9299F2A68CDE200256B29 /* Icon.png in Resources */,
-				34D929A12A68CDE200256B29 /* Style.css in Resources */,
-				34D929842A68CDE200256B29 /* Main.storyboard in Resources */,
-				34D929A32A68CDE200256B29 /* Script.js in Resources */,
-				34D929A72A68CDE200256B29 /* Assets.xcassets in Resources */,
-				34D9299D2A68CDE200256B29 /* Main.html in Resources */,
+				34E62A5B2AFCABC9001BA022 /* Icon.png in Resources */,
+				34E62A5D2AFCABC9001BA022 /* Style.css in Resources */,
+				34E62A402AFCABC9001BA022 /* Main.storyboard in Resources */,
+				34E62A5F2AFCABC9001BA022 /* Script.js in Resources */,
+				34E62A632AFCABC9001BA022 /* Assets.xcassets in Resources */,
+				34E62A592AFCABC9001BA022 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929892A68CDE200256B29 /* Resources */ = {
+		34E62A452AFCABC9001BA022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D92A252A68CDE300256B29 /* fonts in Resources */,
-				34D92A132A68CDE300256B29 /* images in Resources */,
-				34D92A052A68CDE300256B29 /* bootstrap.min.css in Resources */,
-				34D92A232A68CDE300256B29 /* _locales in Resources */,
-				34D92A1C2A68CDE300256B29 /* icon128.png in Resources */,
-				34D92A142A68CDE300256B29 /* icon48.png in Resources */,
-				34D92A0E2A68CDE300256B29 /* start.js in Resources */,
-				34D92A192A68CDE300256B29 /* start.html in Resources */,
-				34D92A162A68CDE300256B29 /* moderation.html in Resources */,
-				34D92A112A68CDE300256B29 /* dist in Resources */,
-				34D92A092A68CDE300256B29 /* manifest-firefox.json in Resources */,
-				34D92A0D2A68CDE300256B29 /* icon400.png in Resources */,
-				34D92A122A68CDE300256B29 /* awesome-notifications in Resources */,
-				34D92A212A68CDE300256B29 /* options.html in Resources */,
-				34D92A1A2A68CDE300256B29 /* theme.js in Resources */,
-				34D92A102A68CDE300256B29 /* background.js in Resources */,
-				34D92A1F2A68CDE300256B29 /* manifest.json in Resources */,
-				34D92A242A68CDE300256B29 /* shinigami.js in Resources */,
-				34D92A1B2A68CDE300256B29 /* shinigami_eyes_data2.js in Resources */,
-				34D92A182A68CDE300256B29 /* bootstrap.bundle.min.js in Resources */,
-				34D92A152A68CDE300256B29 /* options.js in Resources */,
-				34D92A0B2A68CDE300256B29 /* util.js in Resources */,
-				34D92A202A68CDE300256B29 /* start.css in Resources */,
-				34D92A222A68CDE300256B29 /* soupcan.js in Resources */,
-				34D92A262A68CDE300256B29 /* icon24.png in Resources */,
-				34D92A292A68CDE300256B29 /* icon32.png in Resources */,
-				34D92A0C2A68CDE300256B29 /* soupcan.css in Resources */,
-				34D92A0A2A68CDE300256B29 /* icon.png in Resources */,
-				34D92A062A68CDE300256B29 /* icon16.png in Resources */,
-				34D92A172A68CDE300256B29 /* moderation.css in Resources */,
-				34D92A282A68CDE300256B29 /* create_extension_packages.py in Resources */,
-				34D92A082A68CDE300256B29 /* moderation.js in Resources */,
-				34D92A1D2A68CDE300256B29 /* fetch-progress.js in Resources */,
-				34D92A0F2A68CDE300256B29 /* media-matching.js in Resources */,
-				34D92A272A68CDE300256B29 /* options.css in Resources */,
-				34D92A1E2A68CDE300256B29 /* shinigami_eyes_data1.js in Resources */,
-				34D92A072A68CDE300256B29 /* database.js in Resources */,
+				34E62AE12AFCABC9001BA022 /* fonts in Resources */,
+				34E62ACF2AFCABC9001BA022 /* images in Resources */,
+				34E62AC12AFCABC9001BA022 /* bootstrap.min.css in Resources */,
+				34E62ADF2AFCABC9001BA022 /* _locales in Resources */,
+				34E62AD82AFCABC9001BA022 /* icon128.png in Resources */,
+				34E62AD02AFCABC9001BA022 /* icon48.png in Resources */,
+				34E62ACA2AFCABC9001BA022 /* start.js in Resources */,
+				34E62AD52AFCABC9001BA022 /* start.html in Resources */,
+				34E62AD22AFCABC9001BA022 /* moderation.html in Resources */,
+				34E62ACD2AFCABC9001BA022 /* dist in Resources */,
+				34E62AC52AFCABC9001BA022 /* manifest-firefox.json in Resources */,
+				34E62AC92AFCABC9001BA022 /* icon400.png in Resources */,
+				34E62ACE2AFCABC9001BA022 /* awesome-notifications in Resources */,
+				34E62ADD2AFCABC9001BA022 /* options.html in Resources */,
+				34E62AD62AFCABC9001BA022 /* theme.js in Resources */,
+				34E62ACC2AFCABC9001BA022 /* background.js in Resources */,
+				34E62ADB2AFCABC9001BA022 /* manifest.json in Resources */,
+				34E62AE02AFCABC9001BA022 /* shinigami.js in Resources */,
+				34E62AD72AFCABC9001BA022 /* shinigami_eyes_data2.js in Resources */,
+				34E62AD42AFCABC9001BA022 /* bootstrap.bundle.min.js in Resources */,
+				34E62AD12AFCABC9001BA022 /* options.js in Resources */,
+				34E62AC72AFCABC9001BA022 /* util.js in Resources */,
+				34E62ADC2AFCABC9001BA022 /* start.css in Resources */,
+				34E62ADE2AFCABC9001BA022 /* soupcan.js in Resources */,
+				34E62AE22AFCABC9001BA022 /* icon24.png in Resources */,
+				34E62AE52AFCABC9001BA022 /* icon32.png in Resources */,
+				34E62AC82AFCABC9001BA022 /* soupcan.css in Resources */,
+				34E62AC62AFCABC9001BA022 /* icon.png in Resources */,
+				34E62AC22AFCABC9001BA022 /* icon16.png in Resources */,
+				34E62AD32AFCABC9001BA022 /* moderation.css in Resources */,
+				34E62AE42AFCABC9001BA022 /* create_extension_packages.py in Resources */,
+				34E62AC42AFCABC9001BA022 /* moderation.js in Resources */,
+				34E62AD92AFCABC9001BA022 /* fetch-progress.js in Resources */,
+				34E62ACB2AFCABC9001BA022 /* media-matching.js in Resources */,
+				34E62AE32AFCABC9001BA022 /* options.css in Resources */,
+				34E62ADA2AFCABC9001BA022 /* shinigami_eyes_data1.js in Resources */,
+				34E62AC32AFCABC9001BA022 /* database.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929932A68CDE200256B29 /* Resources */ = {
+		34E62A4F2AFCABC9001BA022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D92A002A68CDE300256B29 /* fonts in Resources */,
-				34D929EE2A68CDE300256B29 /* images in Resources */,
-				34D929E02A68CDE300256B29 /* bootstrap.min.css in Resources */,
-				34D929FE2A68CDE300256B29 /* _locales in Resources */,
-				34D929F72A68CDE300256B29 /* icon128.png in Resources */,
-				34D929EF2A68CDE300256B29 /* icon48.png in Resources */,
-				34D929E92A68CDE300256B29 /* start.js in Resources */,
-				34D929F42A68CDE300256B29 /* start.html in Resources */,
-				34D929F12A68CDE300256B29 /* moderation.html in Resources */,
-				34D929EC2A68CDE300256B29 /* dist in Resources */,
-				34D929E42A68CDE300256B29 /* manifest-firefox.json in Resources */,
-				34D929E82A68CDE300256B29 /* icon400.png in Resources */,
-				34D929ED2A68CDE300256B29 /* awesome-notifications in Resources */,
-				34D929FC2A68CDE300256B29 /* options.html in Resources */,
-				34D929F52A68CDE300256B29 /* theme.js in Resources */,
-				34D929EB2A68CDE300256B29 /* background.js in Resources */,
-				34D929FA2A68CDE300256B29 /* manifest.json in Resources */,
-				34D929FF2A68CDE300256B29 /* shinigami.js in Resources */,
-				34D929F62A68CDE300256B29 /* shinigami_eyes_data2.js in Resources */,
-				34D929F32A68CDE300256B29 /* bootstrap.bundle.min.js in Resources */,
-				34D929F02A68CDE300256B29 /* options.js in Resources */,
-				34D929E62A68CDE300256B29 /* util.js in Resources */,
-				34D929FB2A68CDE300256B29 /* start.css in Resources */,
-				34D929FD2A68CDE300256B29 /* soupcan.js in Resources */,
-				34D92A012A68CDE300256B29 /* icon24.png in Resources */,
-				34D92A042A68CDE300256B29 /* icon32.png in Resources */,
-				34D929E72A68CDE300256B29 /* soupcan.css in Resources */,
-				34D929E52A68CDE300256B29 /* icon.png in Resources */,
-				34D929E12A68CDE300256B29 /* icon16.png in Resources */,
-				34D929F22A68CDE300256B29 /* moderation.css in Resources */,
-				34D92A032A68CDE300256B29 /* create_extension_packages.py in Resources */,
-				34D929E32A68CDE300256B29 /* moderation.js in Resources */,
-				34D929F82A68CDE300256B29 /* fetch-progress.js in Resources */,
-				34D929EA2A68CDE300256B29 /* media-matching.js in Resources */,
-				34D92A022A68CDE300256B29 /* options.css in Resources */,
-				34D929F92A68CDE300256B29 /* shinigami_eyes_data1.js in Resources */,
-				34D929E22A68CDE300256B29 /* database.js in Resources */,
+				34E62ABC2AFCABC9001BA022 /* fonts in Resources */,
+				34E62AAA2AFCABC9001BA022 /* images in Resources */,
+				34E62A9C2AFCABC9001BA022 /* bootstrap.min.css in Resources */,
+				34E62ABA2AFCABC9001BA022 /* _locales in Resources */,
+				34E62AB32AFCABC9001BA022 /* icon128.png in Resources */,
+				34E62AAB2AFCABC9001BA022 /* icon48.png in Resources */,
+				34E62AA52AFCABC9001BA022 /* start.js in Resources */,
+				34E62AB02AFCABC9001BA022 /* start.html in Resources */,
+				34E62AAD2AFCABC9001BA022 /* moderation.html in Resources */,
+				34E62AA82AFCABC9001BA022 /* dist in Resources */,
+				34E62AA02AFCABC9001BA022 /* manifest-firefox.json in Resources */,
+				34E62AA42AFCABC9001BA022 /* icon400.png in Resources */,
+				34E62AA92AFCABC9001BA022 /* awesome-notifications in Resources */,
+				34E62AB82AFCABC9001BA022 /* options.html in Resources */,
+				34E62AB12AFCABC9001BA022 /* theme.js in Resources */,
+				34E62AA72AFCABC9001BA022 /* background.js in Resources */,
+				34E62AB62AFCABC9001BA022 /* manifest.json in Resources */,
+				34E62ABB2AFCABC9001BA022 /* shinigami.js in Resources */,
+				34E62AB22AFCABC9001BA022 /* shinigami_eyes_data2.js in Resources */,
+				34E62AAF2AFCABC9001BA022 /* bootstrap.bundle.min.js in Resources */,
+				34E62AAC2AFCABC9001BA022 /* options.js in Resources */,
+				34E62AA22AFCABC9001BA022 /* util.js in Resources */,
+				34E62AB72AFCABC9001BA022 /* start.css in Resources */,
+				34E62AB92AFCABC9001BA022 /* soupcan.js in Resources */,
+				34E62ABD2AFCABC9001BA022 /* icon24.png in Resources */,
+				34E62AC02AFCABC9001BA022 /* icon32.png in Resources */,
+				34E62AA32AFCABC9001BA022 /* soupcan.css in Resources */,
+				34E62AA12AFCABC9001BA022 /* icon.png in Resources */,
+				34E62A9D2AFCABC9001BA022 /* icon16.png in Resources */,
+				34E62AAE2AFCABC9001BA022 /* moderation.css in Resources */,
+				34E62ABF2AFCABC9001BA022 /* create_extension_packages.py in Resources */,
+				34E62A9F2AFCABC9001BA022 /* moderation.js in Resources */,
+				34E62AB42AFCABC9001BA022 /* fetch-progress.js in Resources */,
+				34E62AA62AFCABC9001BA022 /* media-matching.js in Resources */,
+				34E62ABE2AFCABC9001BA022 /* options.css in Resources */,
+				34E62AB52AFCABC9001BA022 /* shinigami_eyes_data1.js in Resources */,
+				34E62A9E2AFCABC9001BA022 /* database.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34D929682A68CDE200256B29 /* Sources */ = {
+		34E62A242AFCABC9001BA022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D929A42A68CDE200256B29 /* ViewController.swift in Sources */,
-				34D929702A68CDE200256B29 /* AppDelegate.swift in Sources */,
-				34D929722A68CDE200256B29 /* SceneDelegate.swift in Sources */,
+				34E62A602AFCABC9001BA022 /* ViewController.swift in Sources */,
+				34E62A2C2AFCABC9001BA022 /* AppDelegate.swift in Sources */,
+				34E62A2E2AFCABC9001BA022 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D9297A2A68CDE200256B29 /* Sources */ = {
+		34E62A362AFCABC9001BA022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D929A52A68CDE200256B29 /* ViewController.swift in Sources */,
-				34D929812A68CDE200256B29 /* AppDelegate.swift in Sources */,
+				34E62A612AFCABC9001BA022 /* ViewController.swift in Sources */,
+				34E62A3D2AFCABC9001BA022 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929872A68CDE200256B29 /* Sources */ = {
+		34E62A432AFCABC9001BA022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D929A82A68CDE200256B29 /* SafariWebExtensionHandler.swift in Sources */,
+				34E62A642AFCABC9001BA022 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D929912A68CDE200256B29 /* Sources */ = {
+		34E62A4D2AFCABC9001BA022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D929A92A68CDE200256B29 /* SafariWebExtensionHandler.swift in Sources */,
+				34E62A652AFCABC9001BA022 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34D9298E2A68CDE200256B29 /* PBXTargetDependency */ = {
+		34E62A4A2AFCABC9001BA022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 34D9298A2A68CDE200256B29 /* Soupcan Extension (iOS) */;
-			targetProxy = 34D9298D2A68CDE200256B29 /* PBXContainerItemProxy */;
+			target = 34E62A462AFCABC9001BA022 /* Soupcan Extension (iOS) */;
+			targetProxy = 34E62A492AFCABC9001BA022 /* PBXContainerItemProxy */;
 		};
-		34D929982A68CDE200256B29 /* PBXTargetDependency */ = {
+		34E62A542AFCABC9001BA022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 34D929942A68CDE200256B29 /* Soupcan Extension (macOS) */;
-			targetProxy = 34D929972A68CDE200256B29 /* PBXContainerItemProxy */;
+			target = 34E62A502AFCABC9001BA022 /* Soupcan Extension (macOS) */;
+			targetProxy = 34E62A532AFCABC9001BA022 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		34D9295F2A68CDE200256B29 /* Main.html */ = {
+		34E62A1B2AFCABC8001BA022 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34D929602A68CDE200256B29 /* Base */,
+				34E62A1C2AFCABC8001BA022 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		34D929732A68CDE200256B29 /* LaunchScreen.storyboard */ = {
+		34E62A2F2AFCABC9001BA022 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34D929742A68CDE200256B29 /* Base */,
+				34E62A302AFCABC9001BA022 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		34D929762A68CDE200256B29 /* Main.storyboard */ = {
+		34E62A322AFCABC9001BA022 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34D929772A68CDE200256B29 /* Base */,
+				34E62A332AFCABC9001BA022 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		34D929822A68CDE200256B29 /* Main.storyboard */ = {
+		34E62A3E2AFCABC9001BA022 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34D929832A68CDE200256B29 /* Base */,
+				34E62A3F2AFCABC9001BA022 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -706,10 +706,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		34D929AA2A68CDE200256B29 /* Debug */ = {
+		34E62A662AFCABC9001BA022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -742,7 +743,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -756,18 +758,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		34D929AB2A68CDE200256B29 /* Release */ = {
+		34E62A672AFCABC9001BA022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -800,7 +804,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -808,14 +813,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		34D929AD2A68CDE200256B29 /* Debug */ = {
+		34E62A692AFCABC9001BA022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -831,7 +836,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -846,7 +851,7 @@
 			};
 			name = Debug;
 		};
-		34D929AE2A68CDE200256B29 /* Release */ = {
+		34E62A6A2AFCABC9001BA022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -862,7 +867,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -878,7 +883,7 @@
 			};
 			name = Release;
 		};
-		34D929B12A68CDE200256B29 /* Debug */ = {
+		34E62A6D2AFCABC9001BA022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -890,7 +895,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -901,7 +905,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 0.12.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -917,7 +921,7 @@
 			};
 			name = Debug;
 		};
-		34D929B22A68CDE200256B29 /* Release */ = {
+		34E62A6E2AFCABC9001BA022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -929,7 +933,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -940,7 +943,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 0.12.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -957,7 +960,7 @@
 			};
 			name = Release;
 		};
-		34D929B42A68CDE200256B29 /* Debug */ = {
+		34E62A702AFCABC9001BA022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Soupcan.entitlements";
@@ -975,7 +978,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -989,7 +992,7 @@
 			};
 			name = Debug;
 		};
-		34D929B52A68CDE200256B29 /* Release */ = {
+		34E62A712AFCABC9001BA022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Soupcan.entitlements";
@@ -1007,7 +1010,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1021,7 +1024,7 @@
 			};
 			name = Release;
 		};
-		34D929B82A68CDE200256B29 /* Debug */ = {
+		34E62A742AFCABC9001BA022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1035,7 +1038,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1043,7 +1045,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 0.12.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1058,7 +1060,7 @@
 			};
 			name = Debug;
 		};
-		34D929B92A68CDE200256B29 /* Release */ = {
+		34E62A752AFCABC9001BA022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1072,7 +1074,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Soupcan;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1080,7 +1081,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.12.1;
+				MARKETING_VERSION = 0.12.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1098,52 +1099,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34D9295C2A68CDE100256B29 /* Build configuration list for PBXProject "Soupcan" */ = {
+		34E62A182AFCABC8001BA022 /* Build configuration list for PBXProject "Soupcan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34D929AA2A68CDE200256B29 /* Debug */,
-				34D929AB2A68CDE200256B29 /* Release */,
+				34E62A662AFCABC9001BA022 /* Debug */,
+				34E62A672AFCABC9001BA022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34D929AC2A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan Extension (iOS)" */ = {
+		34E62A682AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34D929AD2A68CDE200256B29 /* Debug */,
-				34D929AE2A68CDE200256B29 /* Release */,
+				34E62A692AFCABC9001BA022 /* Debug */,
+				34E62A6A2AFCABC9001BA022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34D929B02A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan (iOS)" */ = {
+		34E62A6C2AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34D929B12A68CDE200256B29 /* Debug */,
-				34D929B22A68CDE200256B29 /* Release */,
+				34E62A6D2AFCABC9001BA022 /* Debug */,
+				34E62A6E2AFCABC9001BA022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34D929B32A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan Extension (macOS)" */ = {
+		34E62A6F2AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34D929B42A68CDE200256B29 /* Debug */,
-				34D929B52A68CDE200256B29 /* Release */,
+				34E62A702AFCABC9001BA022 /* Debug */,
+				34E62A712AFCABC9001BA022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34D929B72A68CDE200256B29 /* Build configuration list for PBXNativeTarget "Soupcan (macOS)" */ = {
+		34E62A732AFCABC9001BA022 /* Build configuration list for PBXNativeTarget "Soupcan (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34D929B82A68CDE200256B29 /* Debug */,
-				34D929B92A68CDE200256B29 /* Release */,
+				34E62A742AFCABC9001BA022 /* Debug */,
+				34E62A752AFCABC9001BA022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 34D929592A68CDE100256B29 /* Project object */;
+	rootObject = 34E62A152AFCABC8001BA022 /* Project object */;
 }
